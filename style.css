@@ -1,0 +1,38 @@
+html, body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(hsl(197, 55%, 73%), hsl(205, 55%, 62%), hsl(201, 86%, 68%));
+}
+path {
+	fill: whitesmoke;
+	stroke: #000;
+	stroke-width: 1px;
+	stroke-linejoin: bevel;
+}
+path:hover {
+	fill: rgb(210, 104, 29);
+	stroke: #c02525;
+	stroke-width: 4px;
+	stroke-linejoin: bevel;
+}
+.département {
+	fill: #555555;
+	stroke: #000;
+	stroke-width: 1px;
+	stroke-linejoin: bevel;
+}
+
+.liseré {
+	fill: none;
+	stroke: #d1dfe9;
+	stroke-width: 40;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	filter: url(#filter3903)
+}
