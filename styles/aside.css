@@ -10,7 +10,7 @@ aside {
     border-radius: 0 0 50px 0;
     backdrop-filter: blur(5px); 
     background: linear-gradient(90deg,hsla(0, 0%, 100%, 0.918), hsla(0, 0%, 100%, 0.818), hsla(0, 0%, 100%, 0.818));  
-    box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    box-shadow: inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
     z-index: 2;
 }
 aside>menu {
@@ -21,26 +21,27 @@ aside>menu {
     width: auto;
     height: auto;
     padding: 0;
-    gap: 5%;
+    gap: 10%;
 }
 aside>menu>nav {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
+    min-width: 33%;
     width: auto;
     height: auto;
-    padding: 5% 0 5% 0;
+    padding: 5%;
 }
 aside>menu>nav>p {
-    font-size: 1em;
-    text-shadow: 10px 1px 18px hsl(210, 100%, 35%); 
+    font-size: .7em;
+    text-shadow: 10px 1px 18px hsla(210, 100%, 35%, .8); 
     width: auto;
     height: auto;
 }
 aside>menu>nav>button,
 aside>menu>nav>a>button {
-    width: 10em;
+    width: 8em;
     height: 4em;
     background-color: #2f5b94;
     color:hsl(210, 100%, 35%);
