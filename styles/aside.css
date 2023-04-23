@@ -4,7 +4,7 @@ aside {
     align-items: space-around;
     justify-content: flex-start;
     width: auto;
-    min-width: 16%;
+    min-width: 20%;
     height: 100%;
     padding: 2%;
     border-radius: 0 0 50px 0;
@@ -18,10 +18,106 @@ aside>menu {
     flex-flow: row wrap;
     align-items: flex-start;
     justify-content: flex-start;
+    min-width: 94%;
     width: auto;
     height: auto;
     padding: 0;
     gap: 10%;
+}
+aside>menu>section {
+    display: block;
+    position: relative;
+    width: 20em;
+    height: 32em;
+    margin: 0 0 -12em 0;
+    z-index: 0;
+}
+section>#fond {
+    width: 100%;
+    height: 60%;
+    border-radius: 50%;
+    box-shadow:  3px 3px 7px #adadad,
+    -3px 3px 4px #fbfbfb;
+    z-index: 0;
+}
+img[src="img/up.png"],
+img[src="img/left.png"],
+img[src="img/right.png"],
+img[src="img/down.png"] {
+    filter: contrast(0.9);
+    opacity: 40%;
+}
+img[src="img/up.png"] {
+    position: absolute;
+    top: 3%;
+    left: 16%;
+    width: 68%;
+    height: 22%;
+    z-index: 1;
+}
+img[src="img/left.png"] {
+    position: absolute;
+    top: 10%;
+    left: 5.5%;
+    width: 34%;
+    height: 40%;
+    z-index: 2;
+}
+img[src="img/right.png"] {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    width: 34%;
+    height: 40%;
+    z-index: 2;
+}
+img[src="img/down.png"] {
+    position: absolute;
+    bottom: 43%;
+    left: 16%;
+    width: 68%;
+    height: 22%;
+    z-index: 1;
+}
+img {
+    transition: 0.3s ease-in-out;
+}
+img:active {
+    transform: scale(0.9);
+    filter: contrast(0.7);
+    z-index: 0;
+}
+button {
+    background-color: #e7ecf5;
+}
+button:active,
+#menu:active {
+    transform: scale(0.99);
+    box-shadow: inset 0 1px 2px 1px rgba(35, 35, 35, 0.4);
+}
+button:hover {
+    background-color: rgba(231, 236, 245, 0.8);
+}
+.zoom, .dezoom {
+    position: absolute;
+    width: 60%;
+    height: 19%;
+    font-weight: bolder;
+    font-size: 2em;
+    line-height: 1em;
+    color: rgb(33, 33, 33, 0.8);
+    border: 1px solid rgba(35, 35, 35, 0.1);
+    z-index: 3;
+}
+.zoom {
+    left: 20%;
+    top: 11%;
+    border-radius: 50% 50% 0 0;
+}
+.dezoom {
+    left: 20%;
+    top: 30%;
+    border-radius: 0 0 50% 50%;
 }
 aside>menu>nav {
     display: flex;
@@ -34,14 +130,14 @@ aside>menu>nav {
     padding: 5%;
 }
 aside>menu>nav>p {
-    font-size: .7em;
+    font-size: .8em;
     text-shadow: 10px 1px 18px hsla(210, 100%, 35%, .8); 
     width: auto;
     height: auto;
 }
 aside>menu>nav>button,
 aside>menu>nav>a>button {
-    width: 8em;
+    width: 10em;
     height: 4em;
     background-color: #2f5b94;
     color:hsl(210, 100%, 35%);
