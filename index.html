@@ -7,14 +7,15 @@
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/map.css">
 	<link rel="stylesheet" href="styles/aside.css">
+	<link rel="stylesheet" href="styles/media.css">
 	<title>Document</title>
 </head>
 
 <body id="mer">
 	<aside>
 		<h1>Carte interactive du Finistère</h1>
-		<h2>Contrôles de vue</h2>
 		<menu>
+			<h2>Contrôles de vue</h2>
 			<nav><button id="reset" title="Tout remettre à zéro">Réinitialiser</button></a></nav>
 			<section>
 				<div id="fond"></div>
@@ -26,14 +27,14 @@
 				<button id="dezoom" class="dezoom">-</button>
 			</section>
 		</menu>
-		<h2>Modifier la carte</h2>
 		<menu>
+		<h2>Modifier la carte</h2>
 			<nav><a href="javascript:location.reload(true)"><button id="boutonReset"
 						title="Tout remettre à zéro">Réinitialiser</button></a></nav>
 			<nav><button id="liseret" title="Supprimer ou afficher le liseret">Liseret</button></nav>
 		</menu>
-		<h2>Modifier les couleurs</h2>
 		<menu>
+		<h2>Modifier les couleurs</h2>
 			<nav><input id="couleurMer" title="Changer la couleur de la mer" type="color" value="#6ca9d4">
 				<p>Mer</p>
 			</nav>
@@ -50,6 +51,7 @@
 			</nav>
 		</menu>
 	</aside>
+	<main>
 	<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
 		xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
 		xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="globalMap" width="1468"
@@ -923,6 +925,7 @@
 				id="Trézilidé" />
 		</g>
 	</svg>
+</main>
 
 	<script src="ressources/mer.js"></script>
 	<script src="ressources/terre.js"></script>

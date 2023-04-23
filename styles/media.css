@@ -1,0 +1,62 @@
+@media screen and (max-width: 1800px) {
+
+    html,
+    body {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    aside {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 100%;
+        max-height: 40%;
+        padding: 0;
+    }
+
+    aside>menu {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        max-width: 5em;
+        height: 10em;
+        padding: 0;
+        gap: 5%;
+    }
+    aside>menu>section {
+        display: block;
+        position: relative;
+        width: 10em;
+        height: 16em;
+        z-index: 0;
+    }
+    aside>menu>nav {
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        max-width: 30%;
+        max-height: 30%; 
+        padding: 5%;
+    }
+
+    h1 {
+        width: 80%;
+        padding-left: 4em
+    }
+
+    h2 {
+        width: 20%;
+        padding-left: 6em;
+        margin-right: 0;
+    }
+
+    main {
+        align-items: flex-start;
+    }
+}

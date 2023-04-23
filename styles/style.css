@@ -1,16 +1,35 @@
-html, body {
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 100vw;
-    height: auto;
-    margin: 0;
-    padding: 0;
-    background: radial-gradient(hsl(197, 55%, 73%), hsl(205, 55%, 62%), hsl(201, 86%, 68%));
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    z-index: 0;
+@import url(media.css);
+html,
+body {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 100vw;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	background: radial-gradient(hsl(197, 55%, 73%), hsl(205, 55%, 62%), hsl(201, 86%, 68%));
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	z-index: 0;
 }
+
+aside {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: space-around;
+	justify-content: flex-start;
+	width: auto;
+	min-width: 20%;
+	height: 100%;
+	padding: 2%;
+	border-radius: 0 0 50px 0;
+	backdrop-filter: blur(5px);
+	background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.918), hsla(0, 0%, 100%, 0.818), hsla(0, 0%, 100%, 0.818));
+	box-shadow: inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+	z-index: 2;
+}
+
 h1 {
 	display: flex;
 	flex-flow: row wrap;
@@ -18,28 +37,38 @@ h1 {
 	justify-content: flex-start;
 	width: 100%;
 	height: 2em;
-    font-size: 1em;
+	font-size: 1em;
 	margin-left: -2.5em;
 	padding: 0 0 .8em 2.5em;
 	background-color: hsl(210, 97%, 25%);
-	backdrop-filter: blur(5px); 
-	border-radius: 0 26px 26px 0; 
+	backdrop-filter: blur(5px);
+	border-radius: 0 26px 26px 0;
 	box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(58, 126, 215);
 	color: whitesmoke;
 }
+
 h2 {
-    display: flex;
+	display: flex;
 	flex-flow: row wrap;
 	align-items: flex-end;
 	justify-content: flex-start;
 	width: auto;
 	height: 2em;
-    font-size: .8em;
-    margin-left: -3em;
-	padding: 0 0 .8em 2.5em;
+	font-size: .8em;
+	margin: 0 40% 0 -3em;
+	padding: 0 3em .8em 2.5em;
 	background-color: hsl(210, 97%, 25%);
-	backdrop-filter: blur(5px); 
-	border-radius: 0 26px 26px 0; 
+	backdrop-filter: blur(5px);
+	border-radius: 0 26px 26px 0;
 	box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(58, 126, 215);
 	color: whitesmoke;
+}
+
+main {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: flex-end;
+	justify-content: flex-start;
+	width: 100%;
+	height: auto;
 }
