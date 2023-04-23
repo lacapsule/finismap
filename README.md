@@ -1,4 +1,4 @@
-# finismap
+# Finismap
 Un projet coopératif de carte interactive du Finistère
 Ce projet est lancé dans le cadre de la coopérative La Frontale https://lafrontale.com
 
