@@ -19,10 +19,10 @@ aside {
 	flex-flow: column nowrap;
 	align-items: space-around;
 	justify-content: flex-start;
-	min-width: 410px;
+	min-width: 360px;
 	height: auto;
 	position: relative;
-	left: -480px;
+	left: -430px;
 	padding: 2%;
 	border-radius: 0 0 50px 0;
 	backdrop-filter: blur(5px);
