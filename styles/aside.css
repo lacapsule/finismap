@@ -1,5 +1,35 @@
 @import url(zoom.css);
 
+menu>#menuGeneral {
+    position: relative;
+    top: -2em;
+    left: 100%;
+    width: .1em;
+    height: 2em;
+    padding: 1em;
+    border-radius: 50%;
+    background: linear-gradient(90deg, transparent, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255));
+    border: 2px solid #c9e0ff;
+    box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    font-size: 2em;
+    color: #0f4f93;
+    z-index: 0;
+}
+.ferme:before {
+    content: "ᐅ";
+    position: absolute;
+    top: 25%;
+    font-size: 1em;
+    color: #0f4f93;
+}
+.ouvert:before {
+    content: "ᐊ";
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 1em;
+    color: #0f4f93;
+}
 aside>menu {
     display: flex;
     flex-flow: row wrap;

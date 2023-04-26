@@ -1,5 +1,7 @@
 svg {
-    z-index: 1;
+	margin: -10em 0 0 10em;
+	transform: scale(.76);
+    z-index: 2;
 }
 #communes {
 	fill: #f5f5f5;
@@ -7,9 +9,9 @@ svg {
 	stroke-width: 1px;
 	stroke-linejoin: bevel;
 }
-path:hover, path:active {
-	fill: rgb(210, 104, 29);
-	stroke: #c02525;
+path:not(.liseret):hover, path:active {
+	fill: rgb(39, 104, 144);
+	stroke: #2544c0;
 	stroke-width: 4px;
 	stroke-linejoin: bevel;
 }
@@ -22,7 +24,7 @@ path:hover, path:active {
 
 .liseret {
 	fill: none;
-	stroke: #d1dfe9;
+	stroke: hsla(205, 35%, 87%, .3);
 	stroke-width: 40;
 	stroke-linecap: round;
 	stroke-linejoin: round;
