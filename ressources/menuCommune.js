@@ -1,5 +1,4 @@
 const villes = document.querySelectorAll('.commune');
-const body = document.querySelector('body');
 let nom = document.querySelector('h5');
 let info = document.querySelector('.infos');
 let communeSelectionnee = null;
@@ -28,14 +27,8 @@ couleurCommune.addEventListener("input", () => {
     }
 });
 
-villes.addEventListener('click', (e) => {
-    e.stopPropagation();
-
-    if (!e.target.classList.contains('infos')) {
-
-        if (info.classList.contains('show')) {
-            info.classList.remove('show');
-            console.log(e.target);
-        }
+document.addEventListener('click', function(e) {
+    if (!info.contains(e.target) && info.classList.contains('show')) {
+      info.classList.remove('show');
     }
-});
+  });
