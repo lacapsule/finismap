@@ -23,7 +23,7 @@ villes.forEach(ville => {
     });
 });
 
-body.addEventListener('click', function (e) {
+villes.addEventListener('click', function (e) {
     
     if(!e.target.classList.contains('infos')){
     var info = document.querySelector('.infos')
