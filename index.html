@@ -17,19 +17,6 @@
 <main>
 	<aside>
 		<h1>Carte interactive du Finistère</h1>
-		<h2>Contrôles de vue</h2>
-		<menu>
-			<nav><button id="reset" title="Tout remettre à zéro">Recentrer</button></a></nav>
-			<section>
-				<div id="fond"></div>
-				<img id="up" src="img/up.png" alt="bouton haut"></img>
-				<img id="left" src="img/left.png" alt="bouton gauche"></img>
-				<img id="right" src="img/right.png" alt="bouton droite"></img>
-				<img id="down" src="img/down.png" alt="bouton bas"></img>
-				<button id="zoom" class="zoom">+</button>
-				<button id="dezoom" class="dezoom">-</button>
-			</section>
-		</menu>
 		<h2>Modifier la carte</h2>
 		<menu>
 			<nav><a href="javascript:location.reload(true)"><button id="boutonReset"
@@ -59,11 +46,23 @@
 			</nav>
 		</menu>
 	</aside>
+		<menu>
+			<section>
+				<div id="fond"></div>
+				<img id="up" src="img/up.png" alt="bouton haut"></img>
+				<img id="left" src="img/left.png" alt="bouton gauche"></img>
+				<img id="right" src="img/right.png" alt="bouton droite"></img>
+				<img id="down" src="img/down.png" alt="bouton bas"></img>
+				<button id="zoom" class="zoom">+</button>
+				<button id="reset" title="Tout remettre à zéro">Recentrer</button>
+				<button id="dezoom" class="dezoom">-</button>
+			</section>
+		</menu>
 	<map name="Carte interactive du Finistère" itemscope itemtype="https://schema.org/Thing">
 		<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="globalMap" width="100"
-			height="100" viewBox="0 0 1468 1246">
+			height="100" viewBox="0 0 840 1246">
 			<defs id="defs">
 				<filter id="filter3903">
 					<feGaussianBlur stdDeviation="32.160942" id="feGaussianBlur3905" />

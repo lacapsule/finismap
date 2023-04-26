@@ -1,25 +1,12 @@
-
-@media screen and (max-width: 1500px) {
-    main {
-        width: auto;
-        height: 80vh;
-        right: 40em;
-    }
-    svg {
-        position: relative;
-        transform: scale(.7);
-        z-index: 2;
-    }
-}
-@media screen and (max-width: 1024px) {
-    main {
-        width: auto;
-        height: 80vh;
-        right: 60em;
-    }
-    svg {
-        position: relative;
-        transform: scale(.7);
-        z-index: 2;
+@media screen and (max-width: 1050px) {
+    map {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+        justify-content: flex-end;
+        width: 100%;
+        height: 100%;
+        margin-left: -120%;
+        z-index: 1;
     }
 }

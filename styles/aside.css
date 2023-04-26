@@ -13,7 +13,7 @@ menu>#menuGeneral {
     box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
     font-size: 2em;
     color: #0f4f93;
-    z-index: 0;
+    z-index: 3;
 }
 .ferme:before {
     content: "ᐅ";
