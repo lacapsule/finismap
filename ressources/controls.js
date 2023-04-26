@@ -5,12 +5,16 @@ const svg = document.querySelector('svg')
 const zoom = document.querySelector('#zoom')
 const dezoom = document.querySelector('#dezoom')
 const reset = document.querySelector('#reset')
-
+const up = document.querySelector('#up')
+const down = document.querySelector('#down')
+const left = document.querySelector('#left')
+const right = document.querySelector('#right')
 
 //var
 
 var zoomLevel = 1 // Niveau de zoom initial 
-
+var offSetY = 0
+var offSetX = 0
 
 
 //EventListeners
@@ -22,6 +26,18 @@ dezoom.addEventListener('click', () => {
 })
 reset.addEventListener('click', () => {
     resetMap();
+})
+up.addEventListener('click', () => {
+    move('down')
+})
+down.addEventListener('click', () => {
+    move('up')
+})
+left.addEventListener('click', () => {
+    move('right')
+})
+rigth.addEventListener('click', () => {
+    move('left')
 })
 
 
@@ -43,6 +59,29 @@ function zoomInOut(zoomType){
 
     for(var i = 0; i < svg.children.length; i++){
         svg.children[i].style.transform = `scale(${zoomLevel})`;
+    }
+}
+
+
+function move(direction) {
+    var moveAmount = 50
+    switch(direction){
+        case 'up':
+            offSetY -= moveAmount
+            break
+        case 'down':
+            offSetY += moveAmount
+            break
+        case 'left':
+            offSetX -= moveAmount
+            break
+        case 'right':
+            offSetX += moveAmount
+            break
+    }
+
+    for(var i = 0; i<svg.children.length; i++){
+        svg.children[i].style.transform = `scale(${zoomLevel}) translate(${offSetX}px, ${offSetY}px)`
     }
 }
 
