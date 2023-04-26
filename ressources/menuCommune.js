@@ -1,32 +1,41 @@
 const villes = document.querySelectorAll('.commune');
 const body = document.querySelector('body');
-let name = document.querySelector('h5');
+let nom = document.querySelector('h5');
 let info = document.querySelector('.infos');
+let communeSelectionnee = null;
 
 
 villes.forEach(ville => {
-    ville.addEventListener('contextmenu', function (e) {
+    ville.addEventListener('click', (e) => {
+        e.stopPropagation();
         e.preventDefault();
-       var x = e.clientX + window.pageXOffset + -800;
-       var y = e.clientY + window.pageYOffset + 75;
-       ville.style.fill = couleurCommune.value;
-       console.log('La souris est positionné en : x=' + x + ' y=' + y);
+        var x = e.clientX + window.pageXOffset + -800;
+        var y = e.clientY + window.pageYOffset + 75;
+        ville.style.fill = couleurCommune.value;
+        console.log('La souris est positionné en : x=' + x + ' y=' + y);
 
-       info.classList.toggle('show');
-       info.style.left = x + 'px';
-       info.style.top = y + 'px';
-       name.innerHTML = ville.dataset.name;
-
+        communeSelectionnee = ville;
+        info.classList.add('show');
+        info.style.left = x + 'px';
+        info.style.top = y + 'px';
+        nom.innerHTML = ville.dataset.name;
     });
 });
 
-villes.addEventListener('click', function (e) {
-    
-    if(!e.target.classList.contains('infos')){
-    
-    if(info.classList.contains('show')) {
-        info.classList.remove('show');
-        console.log(e.target);
+couleurCommune.addEventListener("input", () => {
+    if (communeSelectionnee !== null) {
+        communeSelectionnee.style.fill = couleurCommune.value;
     }
-}
+});
+
+villes.addEventListener('click', (e) => {
+    e.stopPropagation();
+
+    if (!e.target.classList.contains('infos')) {
+
+        if (info.classList.contains('show')) {
+            info.classList.remove('show');
+            console.log(e.target);
+        }
+    }
 });
