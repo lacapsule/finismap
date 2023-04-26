@@ -13,11 +13,13 @@
 </head>
 
 <body id="mer">
+	<header></header>
+<main>
 	<aside>
 		<h1>Carte interactive du Finistère</h1>
 		<h2>Contrôles de vue</h2>
 		<menu>
-			<nav><button id="reset" title="Tout remettre à zéro">Réinitialiser</button></a></nav>
+			<nav><button id="reset" title="Tout remettre à zéro">Recentrer</button></a></nav>
 			<section>
 				<div id="fond"></div>
 				<div id="up"><img src="img/up.png" alt="bouton haut"></img></div>
@@ -57,11 +59,11 @@
 			</nav>
 		</menu>
 	</aside>
-	<main itemscope itemtype="https://schema.org/Thing">
+	<map name="Carte interactive du Finistère" itemscope itemtype="https://schema.org/Thing">
 		<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
 			xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
-			xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="globalMap" width="1468"
-			height="1246">
+			xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="globalMap" width="100"
+			height="100" viewBox="0 0 1468 1246">
 			<defs id="defs">
 				<filter id="filter3903">
 					<feGaussianBlur stdDeviation="32.160942" id="feGaussianBlur3905" />
@@ -1509,8 +1511,9 @@
 			<label for="color">Changer la couleur de fond</label>
 			<input type="color" value='#386caf' name="couleur de la commune" id="couleurCommune">
 		</div>
-	</main>
-
+	</map>
+</main>
+	<footer></footer>
 	<script src="ressources/mer.js"></script>
 	<script src="ressources/terre.js"></script>
 	<script src="ressources/controls.js"></script>
