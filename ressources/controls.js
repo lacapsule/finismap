@@ -36,7 +36,7 @@ down.addEventListener('click', () => {
 left.addEventListener('click', () => {
     move('right')
 })
-rigth.addEventListener('click', () => {
+right.addEventListener('click', () => {
     move('left')
 })
 
