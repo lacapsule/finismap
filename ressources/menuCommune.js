@@ -1,5 +1,4 @@
 const villes = document.querySelectorAll('.commune');
-const vide = document.querySelector('.vide');
 const body = document.querySelector('body');
 let nom = document.querySelector('h5');
 let info = document.querySelector('.infos');
