@@ -60,6 +60,7 @@ aside>menu>nav>p {
     height: auto;
 }
 
+span>button,
 aside>menu>nav>button,
 aside>menu>nav>a>button {
     width: 10em;

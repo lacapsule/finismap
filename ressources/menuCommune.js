@@ -26,6 +26,11 @@ couleurCommune.addEventListener("input", () => {
         communeSelectionnee.style.fill = couleurCommune.value;
     }
 });
+couleurFrontiere.addEventListener("input", () => {
+    if (communeSelectionnee !== null) {
+        communeSelectionnee.style.stroke = couleurFrontiere.value;
+    }
+});
 
 document.addEventListener('click', function(e) {
     if (!info.contains(e.target) && info.classList.contains('show')) {
