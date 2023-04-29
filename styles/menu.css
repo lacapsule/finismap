@@ -2,13 +2,25 @@
 @import url(media.css);
 @import url(zoom.css);
 
+header>div {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	height: 41px;
+	background: hsl(0, 0%, 20%);
+	z-index: 10;
+}
 #boutonReset,
 #menuGeneral,
-#menuEpci {
+#menuEpci,
+#menuPays {
     position: relative;
     min-width: 2em;
     padding-bottom: 160px; 
-    border-radius: 20px;
+    border-radius: 6px;
     background: hsl(0, 0%, 83%);
     border: 2px solid #c9e0ff;
     padding: .1em .6em .1em .6em;
@@ -30,16 +42,15 @@ header>menu {
 	justify-content: space-around;
     position: absolute;
     top: -900px;
-    min-width: 36%;
-	max-width: 100%;
+	width: 100%;
 	height: auto;
     padding: 0;
-	border-radius: 0 0 50px 50px;
+	border-radius: 0 0 6px 6px;
 	backdrop-filter: blur(10px);
 	background: hsla(0, 0%, 96%, .5);
-	box-shadow: inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+	box-shadow: inset -8px -8px 16px 0px rgba(145, 192, 255, .2), inset 0px 11px 28px 0px rgba(255, 255, 255, .2);
     transition: .6s ease-in-out;
-    z-index: 5;
+    z-index: -1;
 }
 
 header>menu>nav {
@@ -77,17 +88,27 @@ header>menu>nav>a>button {
     color: hsl(0, 0%, 18%);
     text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
     backdrop-filter: blur(5px);
-    border-radius: 26px;
+    border-radius: 6px;
     border: 2px solid #c9e0ff;
     box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
     transition: 0.3s ease-in-out;
     z-index: 6;
 }
 
+button:hover {
+    filter: contrast(1.2);
+}
+button:active {
+    transform: scale(.9);
+    box-shadow: inset 2px 2px 4px black,
+    inset -2px -2px 4px black;
+}
+
 input[type="color"],
 input[type="color"]::-webkit-color-swatch,
 input[type="color"]::-webkit-color-swatch-wrapper,
 input[type="color"]::-moz-color-swatch {
+    -webkit-text-fill-color: currentcolor;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
@@ -146,4 +167,34 @@ input[type="color"]::-moz-color-swatch {
 .solo>label {
     width: 33%;
     height: 1em;
+}
+.draggable { 
+    position: absolute; 
+    left: 25%; 
+    top: 25%;
+    width: auto; 
+    min-height: 60px;
+    padding: 10px 20px 10px 20px; 
+    border: 1px solid black; 
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 35px 35px 68px 0px rgba(65, 89, 155, 0.5), inset -6px -6px 16px 0px rgba(65, 89, 155, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+.supprTexte {
+    position: absolute; 
+    top: -10px; 
+    right: -10px; 
+    width: 1.5em;
+    height: 1.5em;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bolder;
+    opacity: 10%;
+}
+.supprTexte:hover {
+    transform: scale(1.3);
+    opacity: 100%;
+    font-size: 1.2em;
+    background-color: red;
 }

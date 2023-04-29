@@ -10,15 +10,9 @@
 	<link rel="stylesheet" href="styles/menu.css">
 	<title itemprop="location">Document</title>
 </head>
+
 <body id="mer">
 	<header>
-		<span>
-		<button id="menuGeneral">Général</button>
-		<button id="menuEpci">EPCI</button>
-		</span>
-		<h1>Carte interactive du Finistère</h1>
-		<a href="javascript:location.reload(true)"><button id="boutonReset"
-			title="Tout remettre à zéro">Reset</button></a>
 		<menu class="general">
 			<nav><input id="couleurMer" title="Changer la couleur de la mer" type="color" value="#6ca9d4">
 				<p>Mer</p>
@@ -60,32 +54,27 @@
 					value="#f5f5f5">
 				<p>Landivisiau</p>
 			</nav>
-			<nav><input id="couleurHautLeon" title="Communauté de communes du Haut-Léon" type="color"
-					value="#f5f5f5">
+			<nav><input id="couleurHautLeon" title="Communauté de communes du Haut-Léon" type="color" value="#f5f5f5">
 				<p>Haut-Léon</p>
 			</nav>
-			<nav><input id="couleurMontsDarree" title="Monts d'Arrée Communauté" type="color"
-					value="#f5f5f5">
+			<nav><input id="couleurMontsDarree" title="Monts d'Arrée Communauté" type="color" value="#f5f5f5">
 				<p>Monts d'Arrée</p>
 			</nav>
-			<nav><input id="couleurPoher" title="Poher communauté" type="color"
-					value="#f5f5f5">
+			<nav><input id="couleurPoher" title="Poher communauté" type="color" value="#f5f5f5">
 				<p>Poher</p>
 			</nav>
 			<nav><input id="couleurCornouaille" title="Communauté de communes de Haute Cornouaille" type="color"
 					value="#f5f5f5">
 				<p>Haute Cornouaille</p>
 			</nav>
-			<nav><input id="couleurQuimper" title="Quimper Bretagne Occidentale" type="color"
-					value="#f5f5f5">
+			<nav><input id="couleurQuimper" title="Quimper Bretagne Occidentale" type="color" value="#f5f5f5">
 				<p>Quimper</p>
 			</nav>
 			<nav><input id="couleurChateaulin" title="Communauté de communes de Pleyben-Châteaulin-Porzay" type="color"
 					value="#f5f5f5">
 				<p>Châteaulin</p>
 			</nav>
-			<nav><input id="couleurDouarnenez" title="Douarnenez Communauté" type="color"
-					value="#f5f5f5">
+			<nav><input id="couleurDouarnenez" title="Douarnenez Communauté" type="color" value="#f5f5f5">
 				<p>Douarnenez</p>
 			</nav>
 			<nav><input id="couleurCap" title="Communauté de communes Cap Sizun - Pointe du Raz" type="color"
@@ -108,11 +97,25 @@
 					value="#f5f5f5">
 				<p>Concarneau Cornouaille</p>
 			</nav>
-			<nav><input id="couleurQuimperle" title="Quimperlé Communauté" type="color"
-					value="#f5f5f5">
+			<nav><input id="couleurQuimperle" title="Quimperlé Communauté" type="color" value="#f5f5f5">
 				<p>Quimperlé</p>
 			</nav>
 		</menu>
+		<menu>
+			<nav><input id="couleurPaysBrest" title="Pays de Brest" type="color" value="#f5f5f5">
+				<p>Pays de Brest</p>
+			</nav>
+		</menu>
+		<div>
+			<span>
+				<button id="menuGeneral">Général</button>
+				<button id="menuEpci">EPCI</button>
+				<button id="menuPays">Pays</button>
+			</span>
+			<h1>Carte interactive du Finistère</h1>
+			<a href="javascript:if (confirm('Êtes-vous sûr de vouloir réinitialiser tout votre travail ?')) { location.reload(true); }"><button id="boutonReset"
+					title="Tout remettre à zéro">Reset</button></a>
+		</div>
 	</header>
 	<main>
 		<menu>
@@ -296,7 +299,8 @@
 					</path>
 					<path itemprop="Place"
 						d="m 1045.0312,573.3125 -4.2187,0.46875 -6.9687,4.8125 2.9374,2.65625 0.9376,10.84375 6.8437,7.78125 -4.0313,4.96875 3.25,4.03125 -5.4374,3.5625 0.7812,6.21875 7.5938,0.46875 2.4687,2.625 11.2187,3.0625 3.9376,4.40625 4.625,0.21875 3.9374,4.59375 6.0313,1.21875 2.9687,-0.65625 -0.4374,-5.15625 9.5312,-11.75 0.7812,-7.78125 -4.1874,-6.28125 0.4687,-4.5 7.2187,-5.8125 -8,-2.84375 1.3126,-10 -5.1563,-4.03125 -9.7187,6.34375 -2.3126,6.21875 -5.5937,5.90625 -6.375,-4.8125 -4.3437,-0.3125 -1.8438,-2.34375 -4.0312,1.25 -1.5626,-1.53125 1.5626,-7.9375 -2.3438,-1.375 -1.8438,-4.53125 z"
-						class="commune Communauté de communes de Pleyben-Châteaulin-Porzay" data-name="Le Cloître-Pleyben">
+						class="commune Communauté de communes de Pleyben-Châteaulin-Porzay"
+						data-name="Le Cloître-Pleyben">
 						<title itemprop="location">Le Cloître-Pleyben</title>
 					</path>
 					<path itemprop="Place"
@@ -910,7 +914,8 @@
 					</path>
 					<path itemprop="Place"
 						d="m 771,864.9375 -2.8125,2.375 -2.5625,-2.25 -10.375,1.3125 -11.625,-1.25 -5.125,5.625 2.75,5.25 -5,4.375 7.25,10.5 -6.375,0.875 -10.625,6.375 -6.625,-3.25 L 715,898 l 1.375,7.5 -5.375,4.625 1.875,5.5 2.5,1.75 0,4 8.375,-2.5 9,2.25 5.5,-9.5 7.75,3.75 6.875,-4.125 11.5,5.625 3.375,13.625 -3.09375,4.375 3.53125,2.375 3.71875,-0.53125 2.8125,3.90625 -2.21875,2.5625 3.09375,3.625 5.75,-2.21875 -2.5625,-5.46875 3,-2.125 4.15625,4.25 4.5,0.4375 0.9375,-4.3125 4.1875,-2.3125 2.4375,-5.625 -4.875,-2.6875 -1.75,-3.5 3.4375,-1.6875 2,-4.5625 -1.625,-2.25 1.5,-1.8125 -1.875,-4.1875 -6.75,-2.1875 -4.25,-0.4375 -1.75,-2.875 -3.1875,-0.8125 0.5,-8.8125 3.375,-2.375 1.25,-7.8125 -1.125,-2.3125 -5.625,1.6875 -1.8125,-3.25 -2.25,-0.9375 1.3125,-8.5625 -1.4375,-3.25 -2.0625,-1.875 z"
-						class="commune Communauté de communes du Haut Pays Bigouden" data-name="Plogastel-Saint-Germain">
+						class="commune Communauté de communes du Haut Pays Bigouden"
+						data-name="Plogastel-Saint-Germain">
 						<title itemprop="location">Plogastel-Saint-Germain</title>
 					</path>
 					<path itemprop="Place"
@@ -1563,7 +1568,7 @@
 			</svg>
 			<div class="solo">
 				<h5>Nom de la commune</h5>
-				<span><button>Réinitialiser</button></span>
+				<span><button id="texte">Générer une boite de texte</button></span>
 				<nav>
 					<label for="color">Fond</label>
 					<input type="color" value='#386caf' name="couleur de la commune" id="couleurCommune">
@@ -1582,7 +1587,8 @@
 	<script src="ressources/menuHeader.js"></script>
 	<script src="ressources/menuCommune.js"></script>
 	<script src="ressources/menuEpci.js"></script>
-
+	<script src="ressources/dragTexte.js"></script>
+	<script src="ressources/menuPays.js"></script>
 </body>
 
 </html>

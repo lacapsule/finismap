@@ -15,10 +15,10 @@
         margin-left: -200%;
         z-index: 1;
     }
-    header>span {
-        width: 6em;
-    }
     header>span>menu {
         max-width: 100%;
+    }
+    header>menu>nav {
+        width: 2em;
     }
 }
