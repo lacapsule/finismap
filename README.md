@@ -14,4 +14,4 @@ Tasklist :
 - Permettre une entrée de texte personnalisé et un placement de la boîte générée.
 - Récupérer les contacts et liens vers chaque commune. ✅
 - Ajouter une rubrique contact et lien vers chaque municipalité.
-- Permettre le regroupement de communes en vue de les modifier en groupe.
+- Permettre le regroupement de communes en vue de les modifier en groupe. ✅
