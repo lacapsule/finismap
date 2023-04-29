@@ -1,4 +1,5 @@
 @import url(media.css);
+
 html,
 body {
 	display: flex;
@@ -14,16 +15,19 @@ body {
 	overflow: hidden;
 	z-index: 0;
 }
+
 header {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
+	position: relative;
 	width: 100%;
-	height: 2%;
+	height: 60px;
 	background: hsl(0, 0%, 20%);
-	z-index: 5;
+	z-index: 3;
 }
+
 main {
 	display: flex;
 	flex-flow: row nowrap;
@@ -35,23 +39,6 @@ main {
 	padding: 0;
 	z-index: 0;
 }
-aside {
-	display: flex;
-	flex-flow: column nowrap;
-	align-items: space-around;
-	justify-content: flex-start;
-	min-width: 360px;
-	height: 96vh;
-	position: relative;
-	left: -430px;
-	padding: 2.4em;
-	border-radius: 0 0 50px 0;
-	backdrop-filter: blur(5px);
-	background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.918), hsla(0, 0%, 100%, 0.818), hsla(0, 0%, 100%, 0.818));
-	box-shadow: inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
-    transition: .6s ease-in-out;
-	z-index: 2;
-}
 
 map {
 	display: flex;
@@ -60,23 +47,18 @@ map {
 	justify-content: flex-end;
 	width: 100%;
 	height: 100%;
-	z-index: 2;
+	z-index: 1;
 }
 
 h1 {
+
 	display: flex;
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: flex-start;
-	width: 100%;
-	height: 2em;
+	min-width: 40%;
+	height: auto;
 	font-size: 1em;
-	margin-left: -2.5em;
-	padding: 0 0 0 2.5em;
-	background-color: hsl(210, 97%, 25%);
-	backdrop-filter: blur(5px);
-	border-radius: 0 26px 26px 0;
-	box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(58, 126, 215);
 	color: whitesmoke;
 }
 
@@ -85,17 +67,13 @@ h2 {
 	flex-flow: row wrap;
 	align-items: center;
 	justify-content: flex-start;
-	width: auto;
+	width: 100%;
 	height: 2em;
 	font-size: .8em;
-	margin: 0 40% 0 -3em;
-	padding: 0 3em 0 2.5em;
-	background-color: hsl(210, 97%, 25%);
-	backdrop-filter: blur(5px);
-	border-radius: 0 26px 26px 0;
-	box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(58, 126, 215);
-	color: whitesmoke;
+	padding: .5em;
+	color: rgb(51, 51, 51);
 }
+
 footer {
 	display: flex;
 	flex-flow: row wrap;

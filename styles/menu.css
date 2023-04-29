@@ -1,5 +1,114 @@
-.infos{
-    position:absolute;
+@import url(style.css);
+@import url(media.css);
+@import url(zoom.css);
+
+#boutonReset,
+#menuGeneral,
+#menuEpci {
+    position: relative;
+    min-width: 2em;
+    padding-bottom: 160px; 
+    border-radius: 20px;
+    background: hsl(0, 0%, 83%);
+    border: 2px solid #c9e0ff;
+    padding: .1em .6em .1em .6em;
+    box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: bolder;
+    color: #2e2e2e;
+    z-index: 1;
+}
+#boutonReset {
+    background: rgb(206, 5, 5);
+    color: whitesmoke;
+    box-shadow: 0 0 0 transparent;
+}
+header>menu {
+    display: flex;
+	flex-flow: row wrap;
+	align-items: space-around;
+	justify-content: space-around;
+    position: absolute;
+    top: -900px;
+    min-width: 36%;
+	max-width: 100%;
+	height: auto;
+    padding: 0;
+	border-radius: 0 0 50px 50px;
+	backdrop-filter: blur(10px);
+	background: hsla(0, 0%, 96%, .5);
+	box-shadow: inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    transition: .6s ease-in-out;
+    z-index: 5;
+}
+
+header>menu>nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 4em;
+    width: 5em;
+    height: 10em;
+    margin: 1rem .1em -2em .1em;
+    padding: .2em;
+    z-index: 6;
+}
+
+header>menu>nav>p {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: .8em;
+    text-shadow: 10px 1px 18px hsla(210, 100%, 35%, .8);
+    max-width: 100%;
+    height: auto;
+    z-index: 6;
+}
+
+span>button,
+header>menu>nav>button,
+header>menu>nav>a>button {
+    width: 10em;
+    height: auto;
+    font-weight: bold;
+    color: hsl(0, 0%, 18%);
+    text-shadow: 0.5px 0.5px 1px rgba(236, 236, 236, 0.3), 0 0 1em rgba(253, 253, 253, 0.3), 0 0 0.2em rgba(194, 194, 194, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 26px;
+    border: 2px solid #c9e0ff;
+    box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+    z-index: 6;
+}
+
+input[type="color"],
+input[type="color"]::-webkit-color-swatch,
+input[type="color"]::-webkit-color-swatch-wrapper,
+input[type="color"]::-moz-color-swatch {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    outline: 2px solid hsla(0, 0%, 100%, .1);
+    padding: 0 0 0 .2em;
+    margin: -4px 0 0 -4px;
+    border: 4px solid hsla(0, 0%, 100%, .1);
+    background: transparent;
+    overflow: visible;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 35px;
+    box-shadow: 5px 5px 50px 0px rgba(145, 192, 255, 0.5);
+    z-index: 6;
+}
+
+.solo {
+    position: absolute;
     width: 180px;
     height: 300px;
 	padding: 3em;
@@ -8,32 +117,33 @@
         background-color: rgba(255, 255, 255, 1);
         border-radius: 20px;
         box-shadow: 35px 35px 68px 0px rgba(65, 89, 155, 0.5), inset -6px -6px 16px 0px rgba(65, 89, 155, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
-    z-index: 5; 
+    z-index: 0; 
 }
 
-.infos.show{
+.solo.show {
 	display: flex;
 	flex-flow: row wrap;
 	align-items: space-around;
 	justify-content: space-around;
+    z-index: 4;
 }
 
-.infos>h5 {
+.solo>h5 {
     font-size: 1.2em;
     width: 100%;
 }
 
-.infos>span {
+.solo>span {
     width: 100%;
 }
 
-.infos>nav {
+.solo>nav {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
 }
-.infos>label {
+.solo>label {
     width: 33%;
     height: 1em;
 }

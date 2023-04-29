@@ -1,6 +1,6 @@
 const villes = document.querySelectorAll('.commune');
 let nom = document.querySelector('h5');
-let info = document.querySelector('.infos');
+let s = document.querySelector('.solo');
 let communeSelectionnee = null;
 
 
@@ -14,9 +14,10 @@ villes.forEach(ville => {
         console.log('La souris est positionné en : x=' + x + ' y=' + y);
 
         communeSelectionnee = ville;
-        info.classList.add('show');
-        info.style.left = x + 'px';
-        info.style.top = y + 'px';
+        s.classList.add('show');
+        s.style.left = x + 'px';
+        s.style.top = y + 'px';
+        s.style.zIndex = '5';
         nom.innerHTML = ville.dataset.name;
     });
 });
@@ -33,7 +34,7 @@ couleurFrontiere.addEventListener("input", () => {
 });
 
 document.addEventListener('click', function(e) {
-    if (!info.contains(e.target) && info.classList.contains('show')) {
-      info.classList.remove('show');
+    if (!s.contains(e.target) && s.classList.contains('show')) {
+      s.classList.remove('show');
     }
   });
