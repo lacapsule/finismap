@@ -1,10 +1,8 @@
 @media screen and (max-width: 1050px) {
-    header>h1 {
-        width: 0;
-        height: 0;
-        font-size: 0;
-        opacity: 0;
+    h1 {
+        display: none;
     }
+
     svg {
         display: flex;
         flex-flow: row nowrap;
@@ -15,10 +13,19 @@
         margin-left: -200%;
         z-index: 1;
     }
+
     header>span>menu {
         max-width: 100%;
     }
+
     header>menu>nav {
         width: 2em;
+    }
+
+    #boutonReset,
+    #menuGeneral,
+    #menuEpci,
+    #menuPays {
+        width: 5em;
     }
 }
