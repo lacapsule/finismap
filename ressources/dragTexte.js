@@ -6,10 +6,10 @@ button.addEventListener('click', function() {
   div.setAttribute('contenteditable', 'true');
   div.setAttribute('spellcheck', 'false');
 
-  let text = document.createTextNode('Cliquer pour déplacer et modifier le texte.');
+  let text = document.createTextNode('Cliquer pour déplacer et modifier le texte. Vous pouvez déplacer la boîte avec les flèches directionnelles de vos clavier. Attention ! L\'appui de la touche "suppr" va supprimer la boîte.');
   div.appendChild(text);
 
-  div.setAttribute('style', 'left: 140px; top: 140px;');
+  div.setAttribute('style', 'left: 10px; top: 60px; margin-right: 10px;');
 
   let deleteButton = document.createElement('button');
   deleteButton.textContent = 'x';
@@ -20,6 +20,11 @@ button.addEventListener('click', function() {
   });
 
   document.body.appendChild(div);
+
+  div.addEventListener('keydown', function(event) {
+    if (event.key === 'Delete') {
+      document.body.removeChild(div);
+    }});
 
   let dragging = false;
   let dragStartX, dragStartY;

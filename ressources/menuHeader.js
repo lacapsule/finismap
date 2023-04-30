@@ -4,7 +4,6 @@ let c = document.getElementsByTagName('menu')[1];
 let d = document.getElementById('menuEpci');
 let e = document.getElementsByTagName('menu')[2];
 let f = document.getElementById('menuPays');
-let g = document.getElementById('menuVille');
 
 b.onclick = (event) => {
   if (getComputedStyle(a).top === '-900px' && event.target !== a) {
@@ -26,7 +25,7 @@ d.onclick = (event) => {
   }
 };
 
-g.onclick = (event) => {
+f.onclick = (event) => {
   if (getComputedStyle(e).top === '-900px' && event.target !== e) {
     e.style.top = '25px';
     a.style.top = '-900px';
