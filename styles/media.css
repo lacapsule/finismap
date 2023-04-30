@@ -19,7 +19,10 @@
     }
 
     header>menu>nav {
-        width: 2em;
+        width: 3em;
+        height: auto;
+        margin: .2rem .1em -2em .1em;
+        padding: .1em;
     }
 
     #boutonReset,
