@@ -26,31 +26,60 @@ button.addEventListener('click', function() {
       document.body.removeChild(div);
     }});
 
-  let dragging = false;
-  let dragStartX, dragStartY;
-
-  div.addEventListener('mousedown', function(event) {
-    dragging = true;
-    dragStartX = event.clientX;
-    dragStartY = event.clientY;
-  });
-
-  div.addEventListener('mousemove', function(event) {
-    if (dragging) {
-      let deltaX = event.clientX - dragStartX;
-      let deltaY = event.clientY - dragStartY;
-      let left = parseInt(div.style.left) + deltaX;
-      let top = parseInt(div.style.top) + deltaY;
-      div.style.left = left + 'px';
-      div.style.top = top + 'px';
+    let dragging = false;
+    let dragStartX, dragStartY;
+    
+    div.addEventListener('mousedown', function(event) {
+      dragging = true;
       dragStartX = event.clientX;
       dragStartY = event.clientY;
-    }
-  });
+    });
+    
+    div.addEventListener('mousemove', function(event) {
+      if (dragging) {
+        let deltaX = event.clientX - dragStartX;
+        let deltaY = event.clientY - dragStartY;
+    
+        requestAnimationFrame(function() {
+          let left = parseInt(div.style.left) + deltaX;
+          let top = parseInt(div.style.top) + deltaY;
+          div.style.left = left + 'px';
+          div.style.top = top + 'px';
+        });
+    
+        dragStartX = event.clientX;
+        dragStartY = event.clientY;
+      }
+    });
+    
+    div.addEventListener('mouseup', function(event) {
+      dragging = false;
+    });
+    
 
-  div.addEventListener('mouseup', function(event) {
-    dragging = false;
-  });
+div.addEventListener('touchstart', function(event) {
+  dragging = true;
+  dragStartX = event.touches[0].clientX;
+  dragStartY = event.touches[0].clientY;
+});
+
+div.addEventListener('touchmove', function(event) {
+  if (dragging) {
+    let deltaX = event.touches[0].clientX - dragStartX;
+    let deltaY = event.touches[0].clientY - dragStartY;
+    let left = parseInt(div.style.left) + deltaX;
+    let top = parseInt(div.style.top) + deltaY;
+    div.style.left = left + 'px';
+    div.style.top = top + 'px';
+    dragStartX = event.touches[0].clientX;
+    dragStartY = event.touches[0].clientY;
+  }
+});
+
+div.addEventListener('touchend', function(event) {
+  dragging = false;
+});
+
 
   document.addEventListener('keydown', function(event) {
     if (event.keyCode === 37) { 

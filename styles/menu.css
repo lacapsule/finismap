@@ -177,7 +177,9 @@ input[type="color"]::-moz-color-swatch {
     left: 5%; 
     top: 5%;
     width: auto; 
-    min-height: auto;
+    max-width: 90%;
+    height: auto;
+    max-height: 90%;
     padding: 10px 20px 10px 20px; 
     border: 1px solid black; 
     backdrop-filter: blur(5px);
