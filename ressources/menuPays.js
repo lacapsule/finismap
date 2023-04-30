@@ -1,8 +1,34 @@
-let paysBrest = document.getElementsByClassName('Brest Iroise Abers Légendes Landerneau Crozon');
-let couleurPaysBrest = document.getElementById('couleurPaysBrest');
-
+const paysBrest = document.querySelectorAll(".Brest, .Iroise, .Abers, .Légendes, .Landerneau-Daoulas, .Crozon-Aulne");
+const paysMorlaix = document.querySelectorAll(".Morlaix, .Landivisiau, .Haut-Léon");
+const paysCob = document.querySelectorAll(".Monts, .Poher, .Cornouaille");
+const paysCornouaille = document.querySelectorAll(".Quimper, .Pleyben-Châteaulin-Porzay, .Douarnenez, .Cap, .Bigouden, .Sud, .fouesnantais, .Concarneau");
+const paysLorient = document.querySelectorAll(".Quimperlé");
 couleurPaysBrest.addEventListener("input", () => {
-    for (let i = 0; i < paysBrest.length; i++) {
-        paysBrest[i].style.fill = couleurPaysBrest.value;
-    }
+    paysBrest.forEach((brest) => {
+        brest.style.fill = couleurPaysBrest.value;
+    });
+});
+
+couleurPaysMorlaix.addEventListener("input", () => {
+    paysMorlaix.forEach((morlaix) => {
+        morlaix.style.fill = couleurPaysMorlaix.value;
+    });
+});
+
+couleurPaysCob.addEventListener("input", () => {
+    paysCob.forEach((cob) => {
+        cob.style.fill = couleurPaysCob.value;
+    });
+});
+
+couleurPaysCornouaille.addEventListener("input", () => {
+    paysCornouaille.forEach((cornouaille) => {
+        cornouaille.style.fill = couleurPaysCornouaille.value;
+    });
+});
+
+couleurPaysLorient.addEventListener("input", () => {
+    paysLorient.forEach((lorient) => {
+        lorient.style.fill = couleurPaysLorient.value;
+    });
 });
