@@ -2,6 +2,7 @@ const villes = document.querySelectorAll('.commune');
 let nom = document.querySelector('h5');
 let s = document.querySelector('.solo');
 let communeSelectionnee = null;
+let offset = {x: 0, y: 0};
 
 villes.forEach(ville => {
   ville.addEventListener('click', (e) => {
@@ -15,7 +16,6 @@ villes.forEach(ville => {
     communeSelectionnee = ville;
     s.classList.add('show');
 
-    // Vérifier si l'élément dépasse les limites du DOM
     var elementWidth = s.offsetWidth;
     var elementHeight = s.offsetHeight;
     var maxX = window.innerWidth - elementWidth;
@@ -27,6 +27,31 @@ villes.forEach(ville => {
     s.style.top = y + 'px';
     s.style.zIndex = '5';
     nom.innerHTML = ville.dataset.name;
+
+    s.addEventListener('mousedown', function(e) {
+      offset = {
+        x: s.offsetLeft - e.clientX,
+        y: s.offsetTop - e.clientY
+      };
+      document.addEventListener('mousemove', onMouseMove);
+    });
+
+    document.addEventListener('mouseup', function() {
+      document.removeEventListener('mousemove', onMouseMove);
+    });
+
+    function onMouseMove(e) {
+      var x = e.clientX + offset.x;
+      var y = e.clientY + offset.y;
+
+      var maxX = window.innerWidth - s.offsetWidth;
+      var maxY = window.innerHeight - s.offsetHeight;
+      x = Math.min(Math.max(x, 0), maxX);
+      y = Math.min(Math.max(y, 0), maxY);
+
+      s.style.left = x + 'px';
+      s.style.top = y + 'px';
+    }
   });
 });
 
@@ -47,4 +72,5 @@ document.addEventListener('click', function(e) {
     s.classList.remove('show');
   }
 });
+
 
