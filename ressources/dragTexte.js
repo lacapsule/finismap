@@ -9,7 +9,7 @@ button.addEventListener('click', function() {
   let text = document.createTextNode('Cliquer pour déplacer et modifier le texte. Vous pouvez déplacer la boîte avec les flèches directionnelles de vos clavier. Attention ! L\'appui de la touche "suppr" va supprimer la boîte.');
   div.appendChild(text);
 
-  div.setAttribute('style', 'left: 10px; top: 60px; margin-right: 10px;');
+  div.setAttribute('style', 'left: 10px; top: 60px; margin: auto;');
 
   let deleteButton = document.createElement('button');
   deleteButton.textContent = 'x';

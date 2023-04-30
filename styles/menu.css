@@ -182,11 +182,21 @@ input[type="color"]::-moz-color-swatch {
     max-height: 90%;
     padding: 10px 20px 10px 20px; 
     border: 1px solid black; 
+    resize: both;
     backdrop-filter: blur(5px);
     background-color: rgba(255, 255, 255, 1);
     border-radius: 20px;
     box-shadow: 35px 35px 68px 0px rgba(65, 89, 155, 0.5), inset -6px -6px 16px 0px rgba(65, 89, 155, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
 }
+.draggable::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 20px;
+    height: 20px;
+    cursor: nwse-resize;
+  }
 .supprTexte {
     position: absolute; 
     top: -10px; 
