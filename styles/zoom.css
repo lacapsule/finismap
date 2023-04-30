@@ -81,8 +81,8 @@ button:hover {
     background-color: rgba(231, 236, 245, 0.8);
 }
 #reset {
-    position: relative;
-    top: -34%;
+    position: absolute;
+    top: 25%;
     left: 25%;
     width: 6em;
     height: 2em;
