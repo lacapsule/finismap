@@ -113,8 +113,13 @@
 				<button id="menuPays">Pays</button>
 			</span>
 			<h1>Carte interactive du Finistère</h1>
-			<a href="javascript:if (confirm('Êtes-vous sûr de vouloir réinitialiser tout votre travail ?')) { location.reload(true); }"><button id="boutonReset"
-					title="Tout remettre à zéro">Reset</button></a>
+			<span>
+			<button
+					id="random" title="Tout coloriser au hasard">Random</button>
+			<a
+				href="javascript:if (confirm('Êtes-vous sûr de vouloir réinitialiser tout votre travail ?')) { location.reload(true); }"><button
+					id="boutonReset" title="Tout remettre à zéro">Reset</button></a>
+				</span>
 		</div>
 	</header>
 	<main>
@@ -1581,6 +1586,7 @@
 		</map>
 	</main>
 	<footer></footer>
+	<script src="ressources/random.js"></script>
 	<script src="ressources/mer.js"></script>
 	<script src="ressources/terre.js"></script>
 	<script src="ressources/controls.js"></script>

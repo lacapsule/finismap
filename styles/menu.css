@@ -193,8 +193,8 @@ input[type="color"]::-moz-color-swatch {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 20px;
-    height: 20px;
+    width: 5px;
+    height: 5px;
     cursor: nwse-resize;
   }
 .supprTexte {
