@@ -28,30 +28,8 @@ villes.forEach(ville => {
     s.style.zIndex = '5';
     nom.innerHTML = ville.dataset.name;
 
-    s.addEventListener('mousedown', function(e) {
-      offset = {
-        x: s.offsetLeft - e.clientX,
-        y: s.offsetTop - e.clientY
-      };
-      document.addEventListener('mousemove', onMouseMove);
-    });
-
-    document.addEventListener('mouseup', function() {
-      document.removeEventListener('mousemove', onMouseMove);
-    });
-
-    function onMouseMove(e) {
-      var x = e.clientX + offset.x;
-      var y = e.clientY + offset.y;
-
-      var maxX = window.innerWidth - s.offsetWidth;
-      var maxY = window.innerHeight - s.offsetHeight;
-      x = Math.min(Math.max(x, 0), maxX);
-      y = Math.min(Math.max(y, 0), maxY);
-
-      s.style.left = x + 'px';
-      s.style.top = y + 'px';
-    }
+    s.addEventListener('mousedown', onMouseDown);
+    s.addEventListener('touchstart', onTouchStart);
   });
 });
 
@@ -73,4 +51,56 @@ document.addEventListener('click', function(e) {
   }
 });
 
+function onMouseDown(e) {
+  offset = {
+    x: s.offsetLeft - e.clientX,
+    y: s.offsetTop - e.clientY
+  };
+  document.addEventListener('mousemove', onMouseMove);
+  document.addEventListener('mouseup', onMouseUp);
+}
 
+function onTouchStart(e) {
+  offset = {
+    x: s.offsetLeft - e.touches[0].clientX,
+    y: s.offsetTop - e.touches[0].clientY
+  };
+  document.addEventListener('touchmove', onTouchMove);
+  document.addEventListener('touchend', onTouchEnd);
+}
+
+function onMouseMove(e) {
+  var x = e.clientX + offset.x;
+  var y = e.clientY + offset.y;
+
+  var maxX = window.innerWidth - s.offsetWidth;
+  var maxY = window.innerHeight - s.offsetHeight;
+  x = Math.min(Math.max(x, 0), maxX);
+  y = Math.min(Math.max(y, 0), maxY);
+
+  s.style.left = x + 'px';
+  s.style.top = y + 'px';
+}
+
+function onTouchMove(e) {
+  var x = e.touches[0].clientX + offset.x;
+  var y = e.touches[0].clientY + offset.y;
+
+  var maxX = window.innerWidth - s.offsetWidth;
+  var maxY = window.innerHeight - s.offsetHeight;
+  x = Math.min(Math.max(x, 0), maxX);
+  y = Math.min(Math.max(y, 0), maxY);
+
+  s.style.left = x + 'px';
+  s.style.top = y + 'px';
+}
+
+function onMouseUp() {
+  document.removeEventListener('mousemove', onMouseMove);
+  document.removeEventListener('mouseup', onMouseUp);
+}
+
+function onTouchEnd() {
+  document.removeEventListener('touchmove', onTouchMove);
+  document.removeEventListener('touchend', onTouchEnd);
+}
