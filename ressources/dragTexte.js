@@ -15,7 +15,6 @@ button.addEventListener('click', function() {
   deleteButton.textContent = 'x';
   deleteButton.setAttribute('class', 'supprTexte');
   div.appendChild(deleteButton);
-
   deleteButton.addEventListener('click', function() {
     document.body.removeChild(div);
   });
