@@ -13,25 +13,37 @@
         margin-left: -200%;
         z-index: 1;
     }
+
     main>menu {
         position: absolute;
         width: 15%;
         height: 15%;
     }
 
-#reset {
-    width: 8em;
-    height: 2em;
-}
+    span>button,
+    header>menu>nav>button,
+    header>menu>nav>a>button #boutonReset,
+    #boutonRandom,
+    #menuGeneral,
+    #menuEpci,
+    #menuPays {
+        max-width: 5em;
+        font-size: .5em;
+    }
 
-main>menu>section {
-    display: block;
-    position: relative;
-    width: 2em;
-    height: 8em;
-    margin: 0 0 -6em 0;
-    z-index: 0;
-}
+    #reset {
+        width: 8em;
+        height: 2em;
+    }
+
+    main>menu>section {
+        display: block;
+        position: relative;
+        width: 2em;
+        height: 8em;
+        margin: 0 0 -6em 0;
+        z-index: 0;
+    }
 
     header>span>menu {
         max-width: 100%;
@@ -42,12 +54,5 @@ main>menu>section {
         height: auto;
         margin: .2rem .1em -2em .1em;
         padding: .1em;
-    }
-
-    #boutonReset,
-    #menuGeneral,
-    #menuEpci,
-    #menuPays {
-        width: 5em;
     }
 }

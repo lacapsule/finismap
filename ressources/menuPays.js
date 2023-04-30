@@ -3,32 +3,33 @@ const paysMorlaix = document.querySelectorAll(".Morlaix, .Landivisiau, .Haut-Lé
 const paysCob = document.querySelectorAll(".Monts, .Poher, .Cornouaille");
 const paysCornouaille = document.querySelectorAll(".Quimper, .Pleyben-Châteaulin-Porzay, .Douarnenez, .Cap, .Bigouden, .Sud, .fouesnantais, .Concarneau");
 const paysLorient = document.querySelectorAll(".Quimperlé");
+
 couleurPaysBrest.addEventListener("input", () => {
-    paysBrest.forEach((brest) => {
+    Array.from(paysBrest).forEach((brest) => {
         brest.style.fill = couleurPaysBrest.value;
     });
 });
 
 couleurPaysMorlaix.addEventListener("input", () => {
-    paysMorlaix.forEach((morlaix) => {
+    Array.from(paysMorlaix).forEach((morlaix) => {
         morlaix.style.fill = couleurPaysMorlaix.value;
     });
 });
 
 couleurPaysCob.addEventListener("input", () => {
-    paysCob.forEach((cob) => {
+    Array.from(paysCob).forEach((cob) => {
         cob.style.fill = couleurPaysCob.value;
     });
 });
 
 couleurPaysCornouaille.addEventListener("input", () => {
-    paysCornouaille.forEach((cornouaille) => {
+    Array.from(paysCornouaille).forEach((cornouaille) => {
         cornouaille.style.fill = couleurPaysCornouaille.value;
     });
 });
 
 couleurPaysLorient.addEventListener("input", () => {
-    paysLorient.forEach((lorient) => {
+    Array.from(paysLorient).forEach((lorient) => {
         lorient.style.fill = couleurPaysLorient.value;
     });
 });
