@@ -1,0 +1,1682 @@
+[
+  {
+    "name": "Argol",
+    "website": "http://www.argol.fr",
+    "email": "mairie@argol.fr",
+    "telephone": "02 98 73 54 02"
+  },
+  {
+    "name": "Arzano",
+    "website": "http://www.arzano.fr",
+    "email": "mairie@arzano.fr",
+    "telephone": "02 98 71 74 67"
+  },
+  {
+    "name": "Audierne",
+    "website": "https://audierne.bzh",
+    "email": "accueil.audierne@audierne.bzh",
+    "telephone": "02 98 70 08 47"
+  },
+  {
+    "name": "Bannalec",
+    "website": "http://www.bannalec.fr",
+    "email": "mairie@bannalec.fr",
+    "telephone": "02 98 39 57 22"
+  },
+  {
+    "name": "Baye",
+    "website": "http://www.baye.fr",
+    "email": "mairiebaye@wanadoo.fr",
+    "telephone": "02 98 96 80 12"
+  },
+  {
+    "name": "Bénodet",
+    "website": "http://www.mairie-benodet.fr",
+    "email": "mairie@benodet.fr",
+    "telephone": "02 98 57 05 46"
+  },
+  {
+    "name": "Berrien",
+    "website": "https://www.berrien.fr",
+    "email": "mairie.berrien@wanadoo.fr",
+    "telephone": "02 98 99 01 14"
+  },
+  {
+    "name": "Beuzec-Cap-Sizun",
+    "website": "https://www.beuzec-cap-sizun.fr",
+    "email": "beuzec-cap-sizun@wanadoo.fr",
+    "telephone": "02 98 70 40 79"
+  },
+  {
+    "name": "Bodilis",
+    "website": "http://www.bodilis.org",
+    "email": "accueil@mairie-bodilis.fr",
+    "telephone": "02 98 68 07 01"
+  },
+  {
+    "name": "Bohars",
+    "website": "https://www.mairie-bohars.fr",
+    "email": "communication@mairie-bohars.fr",
+    "telephone": "02 98 03 59 63"
+  },
+  {
+    "name": "Bolazec",
+    "website": "None",
+    "email": "mairie.bolazec@wanadoo.fr",
+    "telephone": "02 98 78 10 95"
+  },
+  {
+    "name": "Botmeur",
+    "website": "None",
+    "email": "mairie.botmeur@wanadoo.fr",
+    "telephone": "02 98 26 10 22"
+  },
+  {
+    "name": "Botsorhel",
+    "website": "https://botsorhel.fr",
+    "email": "mairie.botsorhel@wanadoo.fr",
+    "telephone": "02 98 72 85 43"
+  },
+  {
+    "name": "Bourg-Blanc",
+    "website": "https://bourg-blanc.fr",
+    "email": "mairie@bourg-blanc.fr",
+    "telephone": "02 98 84 58 13"
+  },
+  {
+    "name": "Brasparts",
+    "website": "None",
+    "email": "mairie.brasparts@gmail.com",
+    "telephone": "02 98 81 41 25"
+  },
+  {
+    "name": "Brélès",
+    "website": "https://breles.fr",
+    "email": "breles.mairie@wanadoo.fr",
+    "telephone": "02 98 04 31 03"
+  },
+  {
+    "name": "Brennilis",
+    "website": "http://www.mairie-brennilis.com",
+    "email": "mairie.brennilis@orange.fr",
+    "telephone": "02 98 99 61 07"
+  },
+  {
+    "name": "Brest",
+    "website": "https://www.brest.fr/brestfr-accueil-1575.html",
+    "email": "contact@mairie-brest.fr",
+    "telephone": "02 98 00 80 80"
+  },
+  {
+    "name": "Briec",
+    "website": "https://www.briec.bzh",
+    "email": "accueil@briec.bzh",
+    "telephone": "02 98 57 93 11"
+  },
+  {
+    "name": "Camaret-sur-Mer",
+    "website": "https://www.camaret-sur-mer.fr",
+    "email": "contactmairie@camaretsurmer.fr",
+    "telephone": "02 98 27 94 22"
+  },
+  {
+    "name": "Carantec",
+    "website": "https://www.ville-carantec.com",
+    "email": "servicesaupublic@ville-carantec.com",
+    "telephone": "02 98 67 00 30"
+  },
+  {
+    "name": "Carhaix-Plouguer",
+    "website": "http://www.ville-carhaix.bzh/accueil_carhaix",
+    "email": "etatcivil@ville-carhaix.bzh",
+    "telephone": "02 98 99 33 33"
+  },
+  {
+    "name": "Cast",
+    "website": "https://www.mairie-cast.com",
+    "email": "mairie.de.cast@wanadoo.fr",
+    "telephone": "02 98 73 54 34"
+  },
+  {
+    "name": "Châteaulin",
+    "website": "https://www.chateaulin.fr",
+    "email": "mairie@chateaulin.fr",
+    "telephone": "02 98 86 10 05"
+  },
+  {
+    "name": "Châteauneuf-du-Faou",
+    "website": "https://www.chateauneuf-du-faou.com",
+    "email": "mairie@chateauneufdufaou.bzh",
+    "telephone": "02 98 81 75 41"
+  },
+  {
+    "name": "Cléden-Cap-Sizun",
+    "website": "https://cleden-cap-sizun.fr ",
+    "email": "mairie.cleden-cap-sizun@wanadoo.fr",
+    "telephone": "02 98 70 61 45"
+  },
+  {
+    "name": "Cléden-Poher",
+    "website": "http://www.cleden-poher.com",
+    "email": "mairie-cleden-poher@wanadoo.fr",
+    "telephone": "02 98 93 40 90"
+  },
+  {
+    "name": "Cléder",
+    "website": "None",
+    "email": "mairie@ville-cleder.fr",
+    "telephone": "02 98 69 40 09"
+  },
+  {
+    "name": "Clohars-Carnoët",
+    "website": "https://www.clohars-carnoet.fr",
+    "email": "mairie@clohars-carnoet.fr",
+    "telephone": "02 98 71 53 90"
+  },
+  {
+    "name": "Clohars-Fouesnant",
+    "website": "https://www.clohars-fouesnant.bzh",
+    "email": "mairie@clohars-fouesnant.bzh",
+    "telephone": "02 98 54 60 09"
+  },
+  {
+    "name": "Coat-Méal",
+    "website": "https://coat-meal.fr",
+    "email": "mairie.coat-meal@orange.fr",
+    "telephone": "02 98 84 58 32"
+  },
+  {
+    "name": "Collorec",
+    "website": "None",
+    "email": "mairie.collorec@wanadoo.fr",
+    "telephone": "02 98 73 90 27"
+  },
+  {
+    "name": "Combrit",
+    "website": "https://combrit-saintemarine.bzh",
+    "email": "mairie@combrit-saintemarine.fr",
+    "telephone": "02 98 56 33 14"
+  },
+  {
+    "name": "Commana",
+    "website": "None",
+    "email": "mairie@commana.bzh",
+    "telephone": "02 98 78 00 13"
+  },
+  {
+    "name": "Concarneau",
+    "website": "http://www.concarneau.fr",
+    "email": "contact@concarneau.fr",
+    "telephone": "02 98 50 38 38"
+  },
+  {
+    "name": "Confort-Meilars",
+    "website": "http://confortmeilars.fr/",
+    "email": "contact@confortmeilars.fr",
+    "telephone": "02 98 74 51 89"
+  },
+  {
+    "name": "Coray",
+    "website": "https://coray.fr",
+    "email": "mairie-coray@wanadoo.fr",
+    "telephone": "02 98 59 10 10"
+  },
+  {
+    "name": "Crozon",
+    "website": "https://www.mairie-crozon.fr",
+    "email": "contact@mairie-crozon.fr",
+    "telephone": "02 98 27 10 28"
+  },
+  {
+    "name": "Daoulas",
+    "website": "https://daoulas.bzh/fr",
+    "email": "info@daoulas.com",
+    "telephone": "02 98 25 80 19"
+  },
+  {
+    "name": "Dinéault",
+    "website": "https://dineol.fr",
+    "email": "mairie-dineault@orange.fr",
+    "telephone": "02 98 26 00 55"
+  },
+  {
+    "name": "Dirinon",
+    "website": "https://www.dirinon.fr",
+    "email": "accueil@dirinon.fr",
+    "telephone": "02 98 07 01 33"
+  },
+  {
+    "name": "Douarnenez",
+    "website": "https://www.mairie-douarnenez.fr",
+    "email": "contact@mairie-douarnenez.fr",
+    "telephone": "02 98 74 46 00"
+  },
+  {
+    "name": "Edern",
+    "website": "https://www.edern.fr",
+    "email": "mairie.edern@wanadoo.fr",
+    "telephone": "02 98 57 93 22"
+  },
+  {
+    "name": "Elliant",
+    "website": "https://www.elliant.bzh",
+    "email": "contact@elliant.bzh",
+    "telephone": "02 98 10 91 11"
+  },
+  {
+    "name": "Ergué-Gabéric",
+    "website": "https://www.ergue-gaberic.bzh",
+    "email": "mairie@ergue-gaberic.bzh",
+    "telephone": "02 98 66 68 00"
+  },
+  {
+    "name": "Fouesnant-les-Glénan",
+    "website": "https://ville-fouesnant.fr/",
+    "email": "contact@ville-fouesnant.fr",
+    "telephone": "02 98 51 62 62"
+  },
+  {
+    "name": "Garlan",
+    "website": "https://garlan.fr/",
+    "email": "garlan.mairie@wanadoo.fr",
+    "telephone": "02 98 79 13 48"
+  },
+  {
+    "name": "Gouesnach",
+    "website": "https://mairie-gouesnach.bzh",
+    "email": "contact@mairie-gouesnach.bzh",
+    "telephone": "02 98 51 74 75"
+  },
+  {
+    "name": "Gouesnou",
+    "website": "https://www.gouesnou.bzh/",
+    "email": "accueil@mairie-gouesnou.fr",
+    "telephone": "02 98 37 37 50"
+  },
+  {
+    "name": "Gouézec",
+    "website": "None",
+    "email": "contact1@mairiegouezec.fr",
+    "telephone": "02 98 73 30 06"
+  },
+  {
+    "name": "Goulien",
+    "website": "https://goulien.fr/",
+    "email": "goulien.mairie@orange.fr",
+    "telephone": "02 98 70 06 04"
+  },
+  {
+    "name": "Goulven",
+    "website": "https://mairie-goulven.fr/",
+    "email": "mairie-goulven@orange.fr",
+    "telephone": "02 98 83 40 69"
+  },
+  {
+    "name": "Gourlizon",
+    "website": "https://www.gourlizon.bzh/",
+    "email": "gourlizon.mairie@orange.fr",
+    "telephone": "02 98 91 08 92"
+  },
+  {
+    "name": "Guengat",
+    "website": "http://www.guengat.fr/",
+    "email": "mairie@guengat.bzh",
+    "telephone": "02 98 91 06 16"
+  },
+  {
+    "name": "Guerlesquin",
+    "website": "https://guerlesquin.bzh/mairie-guerlesquin/",
+    "email": "mairie@guerlesquin.bzh",
+    "telephone": "02 98 72 81 79"
+  },
+  {
+    "name": "Guiclan",
+    "website": "https://www.guiclan.fr",
+    "email": "mairie@guiclan.bzh",
+    "telephone": "02 98 79 62 05"
+  },
+  {
+    "name": "Guilers",
+    "website": "http://www.mairie-guilers.fr/",
+    "email": "ville@mairie-guilers.fr",
+    "telephone": "02 98 37 37 37"
+  },
+  {
+    "name": "Guilligomarc'h",
+    "website": "https://www.guilligomarch.com/",
+    "email": "mairie@guilligomarch.com",
+    "telephone": "02 98 71 72 86"
+  },
+  {
+    "name": "Guilvinec",
+    "website": "https://www.leguilvinec.com/",
+    "email": "mairie@leguilvinec.com",
+    "telephone": "02 98 58 10 21"
+  },
+  {
+    "name": "Guimaëc",
+    "website": "https://www.guimaec.com/fr/",
+    "email": "guimaec.mairie@wanadoo.fr",
+    "telephone": "02 98 67 50 76"
+  },
+  {
+    "name": "Guimiliau",
+    "website": "https://guimiliau.fr/",
+    "email": "mairie.guimiliau@wanadoo.fr",
+    "telephone": "02 98 68 75 06"
+  },
+  {
+    "name": "Guipavas",
+    "website": "https://www.guipavas.bzh",
+    "email": "secretariat-general@mairie-guipavas.fr",
+    "telephone": "02 98 84 75 54"
+  },
+  {
+    "name": "Guissény",
+    "website": "https://www.guisseny.net",
+    "email": "accueilguisseny@gmail.com",
+    "telephone": "02 98 25 61 07"
+  },
+  {
+    "name": "Hanvec",
+    "website": "https://www.mairie-hanvec.fr/",
+    "email": "accueil@mairie-hanvec.fr",
+    "telephone": "02 98 21 93 43"
+  },
+  {
+    "name": "Henvic",
+    "website": "http://www.henvic.fr/",
+    "email": "accueil@henvic.fr",
+    "telephone": "02 98 62 81 11"
+  },
+  {
+    "name": "Huelgoat",
+    "website": "https://mairie-huelgoat.fr/",
+    "email": "huelgoat.mairie@gmail.com",
+    "telephone": "02 98 99 71 55"
+  },
+  {
+    "name": "Île-de-Batz",
+    "website": "https://www.iledebatz.com/",
+    "email": "mairie.iledebatz@orange.fr",
+    "telephone": "02 98 61 77 76"
+  },
+  {
+    "name": "Île-de-Sein",
+    "website": "https://www.mairie-iledesein.com/",
+    "email": "mairie.ile.de.sein@orange.fr",
+    "telephone": "02 98 70 90 35"
+  },
+  {
+    "name": "Île-Molène",
+    "website": "http://www.molene.fr",
+    "email": "mairie.ile.molene@wanadoo.fr",
+    "telephone": "02 98 07 39 05"
+  },
+  {
+    "name": "Île-Tudy",
+    "website": "http://www.ile-tudy.fr/",
+    "email": "mairie.iletudy@wanadoo.fr",
+    "telephone": "02 98 56 42 57"
+  },
+  {
+    "name": "Irvillac",
+    "website": "http://www.irvillac.fr/",
+    "email": "irvillac.mairie@wanadoo.fr",
+    "telephone": "02 98 25 83 56"
+  },
+  {
+    "name": "Kergloff",
+    "website": "http://www.kergloff.fr/accueil_kergloff",
+    "email": "mairie@kergloff.fr",
+    "telephone": "02 98 93 40 43"
+  },
+  {
+    "name": "Kerlaz",
+    "website": "https://kerlaz.bzh/",
+    "email": "mairie.kerlaz@wanadoo.fr",
+    "telephone": "02 98 92 19 04"
+  },
+  {
+    "name": "Kerlouan",
+    "website": "https://www.kerlouan.fr/",
+    "email": "mairie@kerlouan.bzh",
+    "telephone": "02 98 83 93 13"
+  },
+  {
+    "name": "Kernilis",
+    "website": "http://www.mairie-kernilis.fr/",
+    "email": "mairie.kernilis@wanadoo.fr",
+    "telephone": "02 98 25 52 43"
+  },
+  {
+    "name": "Kernouës",
+    "website": "https://www.kernoues.com/",
+    "email": "accueil.mairiekernoues@orange.fr",
+    "telephone": "02 98 83 05 04"
+  },
+  {
+    "name": "Kersaint-Plabennec",
+    "website": "https://www.kersaint-plabennec.fr/",
+    "email": "mairie@kersaint-plabennec.bzh",
+    "telephone": "02 98 40 10 03"
+  },
+  {
+    "name": "L'Hôpital-Camfrout",
+    "website": "http://www.lhopital-camfrout.fr/",
+    "email": "accueil@lhopital-camfrout.fr",
+    "telephone": "02 98 20 01 43"
+  },
+  {
+    "name": "La Feuillée",
+    "website": "https://commune-de-la-feuillee.webnode.fr/",
+    "email": "mairielafeuillee@wanadoo.fr",
+    "telephone": "02 98 99 61 52"
+  },
+  {
+    "name": "La Forest-Landerneau",
+    "website": "https://laforest.bzh/",
+    "email": "mairie@la-forest-landerneau.fr",
+    "telephone": "02 98 20 21 43"
+  },
+  {
+    "name": "La Forêt-Fouesnant",
+    "website": "https://www.foret-fouesnant.org/",
+    "email": "accueil@foret-fouesnant.bzh",
+    "telephone": "02 98 56 96 55"
+  },
+  {
+    "name": "La Martyre",
+    "website": "https://lamartyre.fr/",
+    "email": "mairie@lamartyre.bzh",
+    "telephone": "02 98 25 13 19"
+  },
+  {
+    "name": "Lampaul-Guimiliau",
+    "website": "https://www.mairie-lampaul-guimiliau.fr/",
+    "email": "accueil@mairie-lampaul-guimiliau.fr",
+    "telephone": "02 98 68 76 67"
+  },
+  {
+    "name": "Lampaul-Plouarzel",
+    "website": "http://www.lampaul-plouarzel.fr/",
+    "email": "mairie@lampaul-plouarzel.fr",
+    "telephone": "02 98 84 01 13"
+  },
+  {
+    "name": "Lampaul-Ploudalmézeau",
+    "website": "https://lampaul-ploudalmezeau.bzh/",
+    "email": "lampaul-ploudalmezeau.mairie@wanadoo.fr",
+    "telephone": "02 98 48 11 28"
+  },
+  {
+    "name": "Lanarvily",
+    "website": "http://lanarvily.bzh/",
+    "email": "mairie@lanarvily.bzh",
+    "telephone": "02 98 25 50 41"
+  },
+  {
+    "name": "Landéda",
+    "website": "https://www.landeda.fr/",
+    "email": "accueil@landeda.fr",
+    "telephone": "02 98 04 93 06"
+  },
+  {
+    "name": "Landeleau",
+    "website": "https://landeleau.bzh/",
+    "email": "mairie@landeleau.bzh",
+    "telephone": "02 98 93 82 16"
+  },
+  {
+    "name": "Landerneau",
+    "website": "https://www.landerneau.bzh/",
+    "email": "None",
+    "telephone": "02 98 85 43 00"
+  },
+  {
+    "name": "Landévennec",
+    "website": "http://www.landevennec.fr/",
+    "email": "mairie.landevennec@wanadoo.fr",
+    "telephone": "02 98 27 72 65"
+  },
+  {
+    "name": "Landivisiau",
+    "website": "https://landivisiau.fr",
+    "email": "landivisiau@ville-landivisiau.fr",
+    "telephone": "02 98 68 00 30"
+  },
+  {
+    "name": "Landrévarzec",
+    "website": "None",
+    "email": "mairie@landrevarzec.fr",
+    "telephone": "02 98 57 90 44"
+  },
+  {
+    "name": "Landudal",
+    "website": "https://landudal.fr/",
+    "email": "mairie@landudal.fr",
+    "telephone": "02 98 57 40 17"
+  },
+  {
+    "name": "Landudec",
+    "website": "https://www.landudec.fr/",
+    "email": "contact@landudec.fr",
+    "telephone": "02 98 91 52 09"
+  },
+  {
+    "name": "Landunvez",
+    "website": "https://www.landunvez.fr/",
+    "email": "accueil@landunvez.fr",
+    "telephone": "02 98 89 91 02"
+  },
+  {
+    "name": "Langolen",
+    "website": "https://langolen.bzh",
+    "email": "mairie@langolen.bzh",
+    "telephone": "02 98 59 10 25"
+  },
+  {
+    "name": "Lanhouarneau",
+    "website": "https://lanhouarneau.fr/",
+    "email": "commune.lanhouarneau@wanadoo.fr",
+    "telephone": "02 98 61 48 87"
+  },
+  {
+    "name": "Lanildut",
+    "website": "http://www.lanildut.fr/",
+    "email": "mairie@lanildut.bzh",
+    "telephone": "02 98 04 30 05"
+  },
+  {
+    "name": "Lanmeur",
+    "website": "https://www.lanmeur.fr/",
+    "email": "mairie@lanmeur.fr",
+    "telephone": "02 98 67 51 26"
+  },
+  {
+    "name": "Lannéanou",
+    "website": "https://www.lanneanou.fr",
+    "email": "lanneanou-mairie@wanadoo.fr",
+    "telephone": "02 98 78 12 07"
+  },
+  {
+    "name": "Lannédern",
+    "website": "http://www.lannedern.bzh/",
+    "email": "mairie.lannedern@wanadoo.fr",
+    "telephone": "02 98 26 40 56"
+  },
+  {
+    "name": "Lanneuffret",
+    "website": "None",
+    "email": "lanneuffret-mairie@orange.fr",
+    "telephone": "02 98 20 84 07"
+  },
+  {
+    "name": "Lannilis",
+    "website": "https://lannilis.bzh/",
+    "email": "mairie@lannilis.bzh",
+    "telephone": "02 98 04 00 11"
+  },
+  {
+    "name": "Lanrivoaré",
+    "website": "http://www.lanrivoare.fr/",
+    "email": "info@lanrivoare.fr",
+    "telephone": "02 98 84 24 75"
+  },
+  {
+    "name": "Lanvéoc",
+    "website": "https://www.lanveoc.com/",
+    "email": "mairie@lanveoc.com",
+    "telephone": "02 98 27 50 21"
+  },
+  {
+    "name": "La Roche-Maurice",
+    "website": "https://larochemaurice.fr/",
+    "email": "la.roche.maurice@wanadoo.fr",
+    "telephone": "02 98 20 43 57"
+  },
+  {
+    "name": "Laz",
+    "website": "http://www.laz.fr/",
+    "email": "accueil.mairie.laz@orange.fr",
+    "telephone": "02 98 26 83 21"
+  },
+  {
+    "name": "Le Cloître-Pleyben",
+    "website": "None",
+    "email": "mairie-cloitre-pleyben@wanadoo.fr",
+    "telephone": "02 98 26 60 05"
+  },
+  {
+    "name": "Le Cloître-Saint-Thégonnec",
+    "website": "https://www.le-cloitre-saint-thegonnec.bzh",
+    "email": "lecloitrestthegonnec@wanadoo.fr",
+    "telephone": "02 98 79 70 36"
+  },
+  {
+    "name": "Le Conquet",
+    "website": "https://www.leconquet.bzh",
+    "email": "mairie@leconquet.bzh",
+    "telephone": "02 98 89 00 07"
+  },
+  {
+    "name": "Le Drennec",
+    "website": "https://le-drennec.fr",
+    "email": "mairie.le-drennec@wanadoo.fr",
+    "telephone": "02 98 40 40 01"
+  },
+  {
+    "name": "Le Faou",
+    "website": "https://www.lefaou.bzh",
+    "email": "accueil@mairielefaou.fr",
+    "telephone": "02 98 81 90 44"
+  },
+  {
+    "name": "Le Folgoët",
+    "website": "https://www.lefolgoet.fr/",
+    "email": "mairie.le-folgoet@wanadoo.fr",
+    "telephone": "02 98 83 01 92"
+  },
+  {
+    "name": "Le Juch",
+    "website": "http://www.lejuch.fr/",
+    "email": "mairie.le-juch@wanadoo.fr",
+    "telephone": "02 98 74 71 50"
+  },
+  {
+    "name": "Lennon",
+    "website": "None",
+    "email": "mairie-de-lennon@wanadoo.fr",
+    "telephone": "02 98 73 71 08"
+  },
+  {
+    "name": "Mairie déléguée - Le Ponthou",
+    "website": "https://www.plouigneau.fr",
+    "email": "mairieannexe@plouigneau.fr",
+    "telephone": "02 98 79 20 16"
+  },
+  {
+    "name": "Le Relecq-Kerhuon",
+    "website": "https://www.lerelecqkerhuon.bzh/",
+    "email": "secretariat-general@mairie-relecq-kerhuon.fr",
+    "telephone": "02 98 28 14 18"
+  },
+  {
+    "name": "Lesneven",
+    "website": "https://www.lesneven.bzh/",
+    "email": "mairie.lesneven@wanadoo.fr",
+    "telephone": "02 98 83 00 03"
+  },
+  {
+    "name": "Le Tréhou",
+    "website": "https://letrehou.bzh/",
+    "email": "secretariat@mairie-letrehou.fr",
+    "telephone": "02 98 68 82 04"
+  },
+  {
+    "name": "Le Trévoux",
+    "website": "http://www.letrevoux.bzh",
+    "email": "mairie@letrevoux.bzh",
+    "telephone": "02 98 71 86 69"
+  },
+  {
+    "name": "Leuhan",
+    "website": "http://www.leuhan.fr/",
+    "email": "mairie.leuhan@wanadoo.fr",
+    "telephone": "02 98 82 50 90"
+  },
+  {
+    "name": "Loc-Brévalaire",
+    "website": "None",
+    "email": "mairie.loc.brevalaire@wanadoo.fr",
+    "telephone": "02 98 25 51 71"
+  },
+  {
+    "name": "Loc-Eguiner",
+    "website": "None",
+    "email": "mairie.loc-eguiner@wanadoo.fr",
+    "telephone": "02 98 68 11 36"
+  },
+  {
+    "name": "Mairie déléguée - Locmaria-Berrien",
+    "website": "None",
+    "email": "mairie.locmaria-berrien@orange.fr",
+    "telephone": "02 98 99 73 09"
+  },
+  {
+    "name": "Locmaria-Plouzané",
+    "website": "http://www.locmaria-plouzane.fr/joomla/index.php",
+    "email": "accueil@locmaria-plouzane.fr",
+    "telephone": "02 98 48 40 09"
+  },
+  {
+    "name": "Locmélar",
+    "website": "http://www.mairie-locmelar.fr/",
+    "email": "mairie.locmelar@wanadoo.fr",
+    "telephone": "02 98 68 10 03"
+  },
+  {
+    "name": "Locquénolé",
+    "website": "http://www.locquenole.fr/",
+    "email": "mairie@locquenole.fr",
+    "telephone": "02 98 72 21 15"
+  },
+  {
+    "name": "Locquirec",
+    "website": "https://www.locquirec.bzh/",
+    "email": "contact@locquirec.bzh",
+    "telephone": "02 98 67 42 20"
+  },
+  {
+    "name": "Locronan",
+    "website": "https://locronan.bzh/",
+    "email": "mairiedelocronan@wanadoo.fr",
+    "telephone": "02 98 51 80 80"
+  },
+  {
+    "name": "Loctudy",
+    "website": "https://www.loctudy.fr/",
+    "email": "mairie@loctudy.fr",
+    "telephone": "02 98 87 40 02"
+  },
+  {
+    "name": "Locunolé",
+    "website": "https://www.locunole.fr/",
+    "email": "accueil@locunole.fr",
+    "telephone": "02 98 06 30 82"
+  },
+  {
+    "name": "Logonna-Daoulas",
+    "website": "https://www.logonna-daoulas.bzh/",
+    "email": "mairie.logonnadaoulas@orange.fr",
+    "telephone": "02 98 20 60 98"
+  },
+  {
+    "name": "Lopérec",
+    "website": "None",
+    "email": "commune-de-loperec@orange.fr",
+    "telephone": "02 98 81 10 80"
+  },
+  {
+    "name": "Loperhet",
+    "website": "https://www.loperhet.bzh/",
+    "email": "mairie@loperhet.fr",
+    "telephone": "02 98 07 07 07"
+  },
+  {
+    "name": "Loqueffret",
+    "website": "http://www.loqueffret.fr",
+    "email": "mairie.loqueffret@wanadoo.fr",
+    "telephone": "02 98 26 40 32"
+  },
+  {
+    "name": "Lothey",
+    "website": "None",
+    "email": "mairie.de.lothey@wanadoo.fr",
+    "telephone": "02 98 73 32 79"
+  },
+  {
+    "name": "Mahalon",
+    "website": "https://mahalon.fr/",
+    "email": "mairiemahalon@orange.fr",
+    "telephone": "02 98 74 52 76"
+  },
+  {
+    "name": "Guiler-sur-Goyen",
+    "website": "https://guiler-sur-goyen.bzh/",
+    "email": "mairie@guiler-sur-goyen.bzh",
+    "telephone": "02 98 91 50 32"
+  },
+  {
+    "name": "Melgven",
+    "website": "https://www.melgven.fr/",
+    "email": "secretariat@melgven.fr",
+    "telephone": "02 98 97 90 11"
+  },
+  {
+    "name": "Mellac",
+    "website": "https://mellac.bzh/",
+    "email": "mairie@mellac.bzh",
+    "telephone": "02 98 71 80 63"
+  },
+  {
+    "name": "Mespaul",
+    "website": "None",
+    "email": "mairie@mespaul.bzh",
+    "telephone": "02 98 61 57 03"
+  },
+  {
+    "name": "Milizac-Guipronvel",
+    "website": "https://www.milizac-guipronvel.bzh/",
+    "email": "mairie@milizac-guipronvel.bzh",
+    "telephone": "02 98 07 90 31"
+  },
+  {
+    "name": "Milizac-Guipronvel",
+    "website": "None",
+    "email": "mairie@milizac-guipronvel.bzh",
+    "telephone": "02 98 07 90 33"
+  },
+  {
+    "name": "Moëlan-sur-Mer",
+    "website": "http://www.moelan-sur-mer.fr/",
+    "email": "mairie-moelan@wanadoo.fr",
+    "telephone": "02 98 39 60 10"
+  },
+  {
+    "name": "Morlaix",
+    "website": "https://www.ville.morlaix.fr/",
+    "email": "contact@ville.morlaix.fr",
+    "telephone": "02 98 63 10 10"
+  },
+  {
+    "name": "Motreff",
+    "website": "http://www.motreff.fr/accueil_motreff",
+    "email": "mairie.motreff@orange.fr",
+    "telephone": "02 98 99 54 05"
+  },
+  {
+    "name": "Névez",
+    "website": "https://ville-nevez.com/",
+    "email": "mairie@nevez.fr",
+    "telephone": "02 98 06 81 23"
+  },
+  {
+    "name": "Ouessant",
+    "website": "http://www.mairie-ouessant.fr/",
+    "email": "mairie.eusa@wanadoo.fr",
+    "telephone": "02 98 48 80 06"
+  },
+  {
+    "name": "Pencran",
+    "website": "https://www.pencran.fr/",
+    "email": "mairie@pencran.fr",
+    "telephone": "02 98 85 04 42"
+  },
+  {
+    "name": "Penmarch",
+    "website": "https://www.penmarch.fr/",
+    "email": "mairie@penmarch.fr",
+    "telephone": "02 98 58 60 19"
+  },
+  {
+    "name": "Peumerit",
+    "website": "https://peumerit.fr/",
+    "email": "mairie.peumerit@wanadoo.fr",
+    "telephone": "02 98 82 91 51"
+  },
+  {
+    "name": "Plabennec",
+    "website": "https://www.ville-plabennec.fr/",
+    "email": "mairie@plabennec.fr",
+    "telephone": "02 98 40 41 32"
+  },
+  {
+    "name": "Pleuven",
+    "website": "https://www.pleuven.fr/",
+    "email": "mairie@pleuven.bzh",
+    "telephone": "02 98 54 60 50"
+  },
+  {
+    "name": "Pleyben",
+    "website": "http://www.mairiepleyben.fr/index.php/fr/",
+    "email": "contact@mairiepleyben.fr",
+    "telephone": "02 98 26 68 11"
+  },
+  {
+    "name": "Pleyber-Christ",
+    "website": "https://www.pleyber-christ.fr/",
+    "email": "pleyber.christ-mairie@wanadoo.fr",
+    "telephone": "02 98 78 41 67"
+  },
+  {
+    "name": "Plobannalec-Lesconil",
+    "website": "https://www.plobannalec-lesconil.bzh/",
+    "email": "mairie@plobannalec-lesconil.fr",
+    "telephone": "02 98 82 20 22"
+  },
+  {
+    "name": "Ploéven",
+    "website": "https://ploeven.bzh/",
+    "email": "mairie-ploeven@wanadoo.fr",
+    "telephone": "02 98 81 51 84"
+  },
+  {
+    "name": "Plogastel-Saint-Germain",
+    "website": "https://www.plogastel-saint-germain.fr/",
+    "email": "mairie@plogastelsaintgermain.fr",
+    "telephone": "02 98 54 58 57"
+  },
+  {
+    "name": "Plogoff",
+    "website": "http://www.plogoff.fr",
+    "email": "mairie.plogoff@wanadoo.fr",
+    "telephone": "02 98 70 60 54"
+  },
+  {
+    "name": "Plogonnec",
+    "website": "https://www.plogonnec.fr/",
+    "email": "mairie@plogonnec.fr",
+    "telephone": "02 98 91 72 06"
+  },
+  {
+    "name": "Plomelin",
+    "website": "https://plomelin.bzh",
+    "email": "contact@plomelin.bzh",
+    "telephone": "02 98 94 25 57"
+  },
+  {
+    "name": "Plomeur",
+    "website": "https://plomeur.com/",
+    "email": "accueil@plomeur.bzh",
+    "telephone": "02 98 82 04 65"
+  },
+  {
+    "name": "Plomodiern",
+    "website": "https://www.plomodiern.bzh/",
+    "email": "mairie@plomodiern.bzh",
+    "telephone": "02 98 81 51 29"
+  },
+  {
+    "name": "Plonéis",
+    "website": "http://www.ploneis.com/",
+    "email": "mairie.ploneis@wanadoo.fr",
+    "telephone": "02 98 91 08 07"
+  },
+  {
+    "name": "Plonéour-Lanvern",
+    "website": "https://ploneour-lanvern.bzh/",
+    "email": "mairie@ploneour-lanvern.fr",
+    "telephone": "02 98 82 66 00"
+  },
+  {
+    "name": "Plonévez-du-Faou",
+    "website": "http://www.plonevezdufaou.fr/",
+    "email": "mairie.plonevezdufaou@wanadoo.fr",
+    "telephone": "02 98 86 90 07"
+  },
+  {
+    "name": "Plonévez-Porzay",
+    "website": "https://www.plonevez-porzay.net/public/",
+    "email": "mairie-plonevez-porzay@wanadoo.fr",
+    "telephone": "02 98 92 50 23"
+  },
+  {
+    "name": "Plouarzel",
+    "website": "https://www.plouarzel.fr/",
+    "email": "mairie@plouarzel.bzh",
+    "telephone": "02 98 89 60 07"
+  },
+  {
+    "name": "Ploudalmézeau",
+    "website": "http://www.ploudalmezeau.fr/",
+    "email": "accueil@ploudalmezeau.fr",
+    "telephone": "02 98 48 10 48"
+  },
+  {
+    "name": "Ploudaniel",
+    "website": "http://www.commune-ploudaniel.fr/",
+    "email": "mairie.ploudaniel@wanadoo.fr",
+    "telephone": "02 98 83 61 57"
+  },
+  {
+    "name": "Ploudiry",
+    "website": "https://www.mairie-ploudiry.fr/fr/",
+    "email": "accueil@mairie-ploudiry.fr",
+    "telephone": "02 98 25 12 87"
+  },
+  {
+    "name": "Plouédern",
+    "website": "https://www.plouedern.fr/",
+    "email": "mairie@plouedern.fr",
+    "telephone": "02 98 20 82 65"
+  },
+  {
+    "name": "Plouégat-Guérand",
+    "website": "None",
+    "email": "accueil@plouegat-guerrand.bzh",
+    "telephone": "02 98 79 90 09"
+  },
+  {
+    "name": "Plouégat-Moysan",
+    "website": "None",
+    "email": "p-moysan-mairie@wanadoo.fr",
+    "telephone": "02 98 79 21 93"
+  },
+  {
+    "name": "Plouénan",
+    "website": "https://www.plouenan.bzh/",
+    "email": "mairieplouenan@wanadoo.fr",
+    "telephone": "02 98 69 51 11"
+  },
+  {
+    "name": "Plouescat",
+    "website": "https://www.mairie-plouescat.fr/",
+    "email": "mairie@plouescat.fr",
+    "telephone": "02 98 69 60 13"
+  },
+  {
+    "name": "Plouezoc'h",
+    "website": "https://www.plouezoch.fr/",
+    "email": "mairie@plouezoch.fr",
+    "telephone": "02 98 67 27 22"
+  },
+  {
+    "name": "Plougar",
+    "website": "https://www.plougar.fr/",
+    "email": "mairie.plougar@wanadoo.fr",
+    "telephone": "02 98 68 53 65"
+  },
+  {
+    "name": "Plougasnou",
+    "website": "https://www.mairie-plougasnou.fr/",
+    "email": "contact@plougasnou.fr",
+    "telephone": "02 98 67 30 06"
+  },
+  {
+    "name": "Plougastel-Daoulas",
+    "website": "https://ville-plougastel.bzh/",
+    "email": "mairie-plougastel@mairie-plougastel.fr",
+    "telephone": "02 98 37 57 57"
+  },
+  {
+    "name": "Plougonvelin",
+    "website": "https://plougonvelin.fr/",
+    "email": "mairie@plougonvelin.fr",
+    "telephone": "02 98 48 30 21"
+  },
+  {
+    "name": "Plougonven",
+    "website": "http://plougonven.com/",
+    "email": "mairie@plougonven.fr",
+    "telephone": "02 98 78 64 04"
+  },
+  {
+    "name": "Plougoulm",
+    "website": "https://www.plougoulm.bzh",
+    "email": "mairiedeplougoulm@gmail.com",
+    "telephone": "02 98 29 90 76"
+  },
+  {
+    "name": "Plougourvest",
+    "website": "https://mairieplougourvest.fr/",
+    "email": "mairie.plougourvest@wanadoo.fr",
+    "telephone": "02 98 68 53 49"
+  },
+  {
+    "name": "Plouguerneau",
+    "website": "https://plouguerneau.bzh/",
+    "email": "mairie@plouguerneau.bzh",
+    "telephone": "02 98 04 71 06"
+  },
+  {
+    "name": "Plouguin",
+    "website": "https://plouguin.bzh",
+    "email": "mairie.plouguin@wanadoo.fr",
+    "telephone": "02 98 89 23 06"
+  },
+  {
+    "name": "Plouhinec",
+    "website": "http://www.plouhinec.bzh/",
+    "email": "mairie@ville-plouhinec29.fr",
+    "telephone": "02 98 70 87 33"
+  },
+  {
+    "name": "Plouider",
+    "website": "https://plouider.bzh/",
+    "email": "mairie@plouider.bzh",
+    "telephone": "02 98 25 40 59"
+  },
+  {
+    "name": "Plouigneau",
+    "website": "https://www.plouigneau.fr",
+    "email": "mairie@plouigneau.fr",
+    "telephone": "02 98 67 70 09"
+  },
+  {
+    "name": "Ploumoguer",
+    "website": "https://www.ploumoguer.bzh",
+    "email": "contact@ploumoguer.bzh",
+    "telephone": "02 98 89 62 05"
+  },
+  {
+    "name": "Plounéour-Brignogan-Plages",
+    "website": "https://plouneour-brignogan-plages.fr",
+    "email": "mairie@plouneour-brignogan.bzh",
+    "telephone": "02 98 83 40 06"
+  },
+  {
+    "name": "Plounéour-Ménez",
+    "website": "https://www.plouneour-menez.bzh/",
+    "email": "mairie@plouneour-menez.bzh",
+    "telephone": "02 98 78 01 17"
+  },
+  {
+    "name": "Mairie déléguée - Plounéour-Trez",
+    "website": "https://plouneour-brignogan-plages.fr",
+    "email": "mairie.annexe@plouneour-brignogan.bzh",
+    "telephone": "02 98 83 41 03"
+  },
+  {
+    "name": "Plounéventer",
+    "website": "http://www.plouneventer.fr/",
+    "email": "mairie@plouneventer.fr",
+    "telephone": "02 98 20 81 57"
+  },
+  {
+    "name": "Plounévézel",
+    "website": "None",
+    "email": "mairie.plounevezel@gmail.com",
+    "telephone": "02 98 93 10 06"
+  },
+  {
+    "name": "Plounévez-Lochrist",
+    "website": "https://plounevez-lochrist.fr/fr/",
+    "email": "accueil@plounevez-lochrist.fr",
+    "telephone": "02 98 61 40 57"
+  },
+  {
+    "name": "Plourin",
+    "website": "https://www.plourin.fr/",
+    "email": "accueil@mairie-plourin.fr",
+    "telephone": "02 98 04 31 57"
+  },
+  {
+    "name": "Plourin-lès-Morlaix",
+    "website": "None",
+    "email": "mairie@plourin-morlaix.bzh",
+    "telephone": "02 98 72 51 55"
+  },
+  {
+    "name": "Plouvien",
+    "website": "https://www.plouvien.fr/",
+    "email": "mairie@plouvien.fr",
+    "telephone": "02 98 40 91 16"
+  },
+  {
+    "name": "Plouvorn",
+    "website": "https://plouvorn.com/",
+    "email": "commune-de-plouvorn@wanadoo.fr",
+    "telephone": "02 98 61 32 40"
+  },
+  {
+    "name": "Plouyé",
+    "website": "https://www.mairie-plouye.bzh/",
+    "email": "contact@mairie-plouye.fr",
+    "telephone": "02 98 99 70 07"
+  },
+  {
+    "name": "Plouzané",
+    "website": "http://www.ville-plouzane.fr/index.php/fr/",
+    "email": "mairie@plouzane.fr",
+    "telephone": "02 98 31 95 30"
+  },
+  {
+    "name": "Plouzévédé",
+    "website": "https://www.plouzevede.fr/",
+    "email": "mairie.plouzevede@wanadoo.fr",
+    "telephone": "02 98 69 98 18"
+  },
+  {
+    "name": "Plovan",
+    "website": "https://www.plovan.fr",
+    "email": "mairie@plovan.bzh",
+    "telephone": "02 98 54 42 07"
+  },
+  {
+    "name": "Plozévet",
+    "website": "http://www.plozevet.bzh",
+    "email": "infomairie@plozevet.bzh",
+    "telephone": "02 98 91 30 10"
+  },
+  {
+    "name": "Pluguffan",
+    "website": "https://pluguffan.bzh/",
+    "email": "mairie@pluguffan.bzh",
+    "telephone": "02 98 94 01 11"
+  },
+  {
+    "name": "Pont-Aven",
+    "website": "https://www.pontaven.fr",
+    "email": "mairie@pont-aven.fr",
+    "telephone": "02 98 06 00 35"
+  },
+  {
+    "name": "Pont-Croix",
+    "website": "http://www.pont-croix.fr",
+    "email": "pontcroix.mairie@wanadoo.fr",
+    "telephone": "02 98 70 40 66"
+  },
+  {
+    "name": "Pont-de-Buis-lès-Quimerc'h",
+    "website": "https://www.pontdebuislesquimerch.fr/",
+    "email": "accueil-mairie@pontdebuislesquimerch.fr",
+    "telephone": "02 98 73 04 38"
+  },
+  {
+    "name": "Pont-l'Abbé",
+    "website": "https://ville-pontlabbe.bzh/",
+    "email": "accueil@ville-pontlabbe.fr",
+    "telephone": "02 98 66 09 09"
+  },
+  {
+    "name": "Porspoder",
+    "website": "https://www.porspoder.fr/",
+    "email": "accueil@porspoder.fr",
+    "telephone": "02 98 89 90 27"
+  },
+  {
+    "name": "Port-Launay",
+    "website": "http://www.port-launay.fr",
+    "email": "port.launay@wanadoo.fr",
+    "telephone": "02 98 86 09 63"
+  },
+  {
+    "name": "Pouldergat",
+    "website": "https://www.pouldergat.fr/",
+    "email": "pouldergat.mairie@wanadoo.fr",
+    "telephone": "02 98 74 61 26"
+  },
+  {
+    "name": "Pouldreuzic",
+    "website": "http://www.pouldreuzic.bzh/",
+    "email": "mairie@pouldreuzic.bzh",
+    "telephone": "02 98 54 40 32"
+  },
+  {
+    "name": "Poullan-sur-Mer",
+    "website": "http://www.poullan-sur-mer.fr/",
+    "email": "mairie.poullan@orange.fr",
+    "telephone": "02 98 74 03 92"
+  },
+  {
+    "name": "Poullaouën",
+    "website": "http://www.mairie-poullaouen.fr/accueil_poullaouen",
+    "email": "mairie-de-poullaouen@wanadoo.fr",
+    "telephone": "02 98 93 50 76"
+  },
+  {
+    "name": "Primelin",
+    "website": "https://primelin.fr/",
+    "email": "mairie.primelin@wanadoo.fr",
+    "telephone": "02 98 74 81 19"
+  },
+  {
+    "name": "Quéménéven",
+    "website": "https://quemeneven.bzh/",
+    "email": "mairie@quemeneven.bzh",
+    "telephone": "02 98 73 53 33"
+  },
+  {
+    "name": "Querrien",
+    "website": "https://www.querrien.bzh/",
+    "email": "mairie.querrien.finistere@wanadoo.fr",
+    "telephone": "02 98 71 34 21"
+  },
+  {
+    "name": "Quimper",
+    "website": "https://www.quimper.bzh/",
+    "email": "contact@quimper.bzh",
+    "telephone": "02 98 98 89 89"
+  },
+  {
+    "name": "Quimperlé",
+    "website": "https://www.quimperle.bzh/",
+    "email": "mairie@ville-quimperle.fr",
+    "telephone": "02 98 96 37 37"
+  },
+  {
+    "name": "Rédéné",
+    "website": "https://www.redene.fr/",
+    "email": "mairie@redene.bzh",
+    "telephone": "02 98 96 70 44"
+  },
+  {
+    "name": "Riec-sur-Bélon",
+    "website": "https://www.riecsurbelon.bzh/",
+    "email": "accueil@riecsurbelon.bzh",
+    "telephone": "02 98 06 91 04"
+  },
+  {
+    "name": "Roscanvel",
+    "website": "https://www.roscanvel.fr/",
+    "email": "mairie@roscanvel.fr",
+    "telephone": "02 98 27 48 51"
+  },
+  {
+    "name": "Roscoff",
+    "website": "http://www.roscoff.fr/",
+    "email": "secretariat.mairie@roscoff.fr",
+    "telephone": "02 98 24 43 00"
+  },
+  {
+    "name": "Rosnoën",
+    "website": "http://www.mairiederosnoen.fr/",
+    "email": "secretariat@mairiederosnoen.fr",
+    "telephone": "02 98 81 91 97"
+  },
+  {
+    "name": "Rosporden",
+    "website": "https://mairie-rosporden.bzh",
+    "email": "accueil@mairie-rosporden.fr",
+    "telephone": "02 98 66 99 00"
+  },
+  {
+    "name": "Saint-Coulitz",
+    "website": "https://www.saint-coulitz.fr/",
+    "email": "mairie.saint-coulitz@orange.fr",
+    "telephone": "02 98 86 17 65"
+  },
+  {
+    "name": "Saint-Derrien",
+    "website": "https://www.saint-derrien.fr/",
+    "email": "saint.derrien@wanadoo.fr",
+    "telephone": "02 98 68 52 44"
+  },
+  {
+    "name": "Saint-Divy",
+    "website": "https://wp.saint-divy.fr/",
+    "email": "accueil@mairie-saintdivy.fr",
+    "telephone": "02 98 20 20 90"
+  },
+  {
+    "name": "Saint-Eloy",
+    "website": "https://www.saint-eloy.fr/",
+    "email": "mairie.saint-eloy@wanadoo.fr",
+    "telephone": "02 98 21 96 76"
+  },
+  {
+    "name": "Sainte-Sève",
+    "website": "https://mairiesteseve.wordpress.com/",
+    "email": "sainte-seve-mairie@wanadoo.fr",
+    "telephone": "02 98 88 25 03"
+  },
+  {
+    "name": "Saint-Évarzec",
+    "website": "https://www.saint-evarzec.bzh/",
+    "email": "mairie@saint-evarzec.bzh",
+    "telephone": "02 98 56 28 29"
+  },
+  {
+    "name": "Saint-Frégant",
+    "website": "https://saintfregant.bzh/",
+    "email": "mairie@saintfregant.bzh",
+    "telephone": "02 98 83 05 02"
+  },
+  {
+    "name": "Saint-Goazec",
+    "website": "http://www.saintgoazec.com",
+    "email": "stgoazec.mairie@wanadoo.fr",
+    "telephone": "02 98 26 82 20"
+  },
+  {
+    "name": "Saint-Hernin",
+    "website": "https://www.saint-hernin.fr/",
+    "email": "mairie@saint-hernin.fr",
+    "telephone": "02 98 99 51 27"
+  },
+  {
+    "name": "Saint-Jean-du-Doigt",
+    "website": "http://www.saintjeandudoigt.fr/",
+    "email": "mairie@saintjeandudoigt.fr",
+    "telephone": "02 98 67 34 07"
+  },
+  {
+    "name": "Saint-Jean-Trolimon",
+    "website": "http://www.saintjeantrolimon.fr/",
+    "email": "mairiesaintjeantrolimon@wanadoo.fr",
+    "telephone": "02 98 82 00 34"
+  },
+  {
+    "name": "Saint-Martin-des-Champs",
+    "website": "https://www.ville-st-martin29.fr/",
+    "email": "mairie@ville-stmartin29.fr",
+    "telephone": "02 98 62 06 47"
+  },
+  {
+    "name": "Saint-Méen",
+    "website": "https://www.clcl.bzh/saint-meen",
+    "email": "mairie.saint-meen@wanadoo.fr",
+    "telephone": "02 98 83 60 90"
+  },
+  {
+    "name": "Saint-Nic",
+    "website": "http://www.saint-nic.fr/",
+    "email": "mairie@saint-nic.fr",
+    "telephone": "02 98 26 50 36"
+  },
+  {
+    "name": "Saint-Pabu",
+    "website": "https://www.saint-pabu.bzh/",
+    "email": "mairie@saint-pabu.bzh",
+    "telephone": "02 98 89 82 76"
+  },
+  {
+    "name": "Saint-Pol-de-Léon",
+    "website": "http://www.saintpoldeleon.fr",
+    "email": "mairie@saintpoldeleon.fr",
+    "telephone": "02 98 15 85 00"
+  },
+  {
+    "name": "Saint-Renan",
+    "website": "https://www.saint-renan.fr/",
+    "email": "mairie@saint-renan.fr",
+    "telephone": "02 98 84 20 08"
+  },
+  {
+    "name": "Saint-Rivoal",
+    "website": "http://mairie-saint-rivoal.bzh/",
+    "email": "mairie-st-rivoal@wanadoo.fr",
+    "telephone": "02 98 81 40 54"
+  },
+  {
+    "name": "Saint-Sauveur",
+    "website": "http://www.saintsauveur-finistere.fr/",
+    "email": "mairie@saintsauveur-finistere.fr",
+    "telephone": "02 98 68 72 43"
+  },
+  {
+    "name": "Saint-Ségal",
+    "website": "https://www.mairie-saintsegal.fr/",
+    "email": "accueil@mairie-saintsegal.fr",
+    "telephone": "02 98 73 17 03"
+  },
+  {
+    "name": "Saint-Servais",
+    "website": "https://saint-servais-29.fr/",
+    "email": "mairie.saintservais@orange.fr",
+    "telephone": "02 98 68 15 21"
+  },
+  {
+    "name": "Saint-Thégonnec Loc-Eguiner",
+    "website": "https://saint-thegonnec-loc-eguiner.bzh/",
+    "email": "mairie@saint-thegonnec-loc-eguiner.bzh",
+    "telephone": "02 98 79 61 06"
+  },
+  {
+    "name": "Saint-Thois",
+    "website": "None",
+    "email": "mairiestthois@orange.fr",
+    "telephone": "02 98 73 82 08"
+  },
+  {
+    "name": "Saint-Thonan",
+    "website": "https://www.saint-thonan.fr/",
+    "email": "mairie@saint-thonan.fr",
+    "telephone": "02 98 40 13 33"
+  },
+  {
+    "name": "Saint-Thurien",
+    "website": "https://www.saint-thurien.fr/",
+    "email": "mairie.saint.thurien@wanadoo.fr",
+    "telephone": "02 98 39 83 71"
+  },
+  {
+    "name": "Saint-Urbain",
+    "website": "https://www.saint-urbain.com/accueil",
+    "email": "saint-urbain29@wanadoo.fr",
+    "telephone": "02 98 25 03 04"
+  },
+  {
+    "name": "Saint-Vougay",
+    "website": "https://www.saint-vougay.fr/",
+    "email": "mairiesaintvougay@orange.fr",
+    "telephone": "02 98 69 97 04"
+  },
+  {
+    "name": "Saint-Yvi",
+    "website": "https://www.saint-yvi.bzh/",
+    "email": "contact@saint-yvi.bzh",
+    "telephone": "02 98 94 72 11"
+  },
+  {
+    "name": "Santec",
+    "website": "http://www.ville-santec.fr/",
+    "email": "mairie-de-santec@wanadoo.fr",
+    "telephone": "02 98 29 74 65"
+  },
+  {
+    "name": "Scaër",
+    "website": "https://www.scaer.bzh/",
+    "email": "mairie@ville-scaer.fr",
+    "telephone": "02 98 59 42 10"
+  },
+  {
+    "name": "Scrignac",
+    "website": "https://www.scrignac.bzh",
+    "email": "mairie.scrignac@wanadoo.fr",
+    "telephone": "02 98 78 20 15"
+  },
+  {
+    "name": "Sibiril",
+    "website": "https://sibiril.com/",
+    "email": "commune.de.sibiril@wanadoo.fr",
+    "telephone": "02 98 29 91 57"
+  },
+  {
+    "name": "Sizun",
+    "website": "http://www.mairie-sizun.fr/",
+    "email": "sizun@mairie-sizun@fr",
+    "telephone": "02 98 68 80 13"
+  },
+  {
+    "name": "Spézet",
+    "website": "https://www.mairie-spezet.fr/",
+    "email": "mairiespezet@wanadoo.fr",
+    "telephone": "02 98 93 80 03"
+  },
+  {
+    "name": "Taulé",
+    "website": "https://commune-taule.fr/mairie/",
+    "email": "mairie@commune-taule.fr",
+    "telephone": "02 98 67 11 14"
+  },
+  {
+    "name": "Telgruc-sur-Mer",
+    "website": "None",
+    "email": "mairie@telgruc-sur-mer.bzh",
+    "telephone": "02 98 27 73 65"
+  },
+  {
+    "name": "Tourch",
+    "website": "https://www.tourch.bzh/",
+    "email": "mairie@tourch.bzh",
+    "telephone": "02 98 59 12 51"
+  },
+  {
+    "name": "Trébabu",
+    "website": "None",
+    "email": "trebabu.mairie@orange.fr",
+    "telephone": "02 98 89 01 84"
+  },
+  {
+    "name": "Tréffiagat",
+    "website": "http://treffiagat.bzh/",
+    "email": "mairie@treffiagat.bzh",
+    "telephone": "02 98 58 14 47"
+  },
+  {
+    "name": "Tréflaouénan",
+    "website": "https://treflaouenan.fr",
+    "email": "mairie.treflaouenan@orange.fr",
+    "telephone": "02 98 69 97 81"
+  },
+  {
+    "name": "Tréflévénez",
+    "website": "https://treflevenez.fr/",
+    "email": "mairie@treflevenez.bzh",
+    "telephone": "02 98 25 17 09"
+  },
+  {
+    "name": "Tréflez",
+    "website": "https://mairie-treflez.fr/",
+    "email": "accueil.mairietreflez@orange.fr",
+    "telephone": "02 98 61 45 72"
+  },
+  {
+    "name": "Trégarantec",
+    "website": "None",
+    "email": "mairie.tregarantec@wanadoo.fr",
+    "telephone": "02 98 83 61 65"
+  },
+  {
+    "name": "Trégarvan",
+    "website": "None",
+    "email": "mairie.tregarvan@wanadoo.fr",
+    "telephone": "02 98 26 02 06"
+  },
+  {
+    "name": "Tréglonou",
+    "website": "https://www.treglonou.fr/",
+    "email": "commune-treglonou@wanadoo.fr",
+    "telephone": "02 98 04 00 70"
+  },
+  {
+    "name": "Trégourez",
+    "website": "https://tregourez.fr",
+    "email": "mairie.tregourez@wanadoo.fr",
+    "telephone": "02 98 59 10 28"
+  },
+  {
+    "name": "Tréguennec",
+    "website": "http://www.treguennec.fr/",
+    "email": "mairie@treguennec.fr",
+    "telephone": "02 98 87 60 35"
+  },
+  {
+    "name": "Trégunc",
+    "website": "http://www.tregunc.fr",
+    "email": "mairie@tregunc.fr",
+    "telephone": "02 98 50 95 95"
+  },
+  {
+    "name": "Trémaouézan",
+    "website": "http://www.tremaouezan.fr/",
+    "email": "mairie-tremaouezan@wanadoo.fr",
+    "telephone": "02 98 20 87 12"
+  },
+  {
+    "name": "Tréméoc",
+    "website": "http://www.tremeoc.fr",
+    "email": "tremeoc@wanadoo.fr",
+    "telephone": "02 98 87 08 06"
+  },
+  {
+    "name": "Tréméven",
+    "website": "https://www.tremeven.fr/",
+    "email": "mairie@tremeven.fr",
+    "telephone": "02 98 96 08 02"
+  },
+  {
+    "name": "Tréogat",
+    "website": "http://www.treogat.fr/",
+    "email": "mairie@treogat.fr",
+    "telephone": "02 98 87 60 81"
+  },
+  {
+    "name": "Tréouergat",
+    "website": "https://www.treouergat.bzh/",
+    "email": "mairie.treouergat@wanadoo.fr",
+    "telephone": "02 98 89 21 55"
+  }
+]

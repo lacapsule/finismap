@@ -39,7 +39,6 @@ header>div {
 header>menu {
     display: flex;
 	flex-flow: row wrap;
-	align-items: space-around;
 	justify-content: space-around;
     position: absolute;
     top: -900px;
@@ -130,10 +129,13 @@ input[type="color"]::-moz-color-swatch {
 }
 
 .solo {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-around;
     position: absolute;
-    width: 180px;
-    height: 300px;
-	padding: 3em;
+    width: 250px;
+	padding: 1em;
     display: none;
     backdrop-filter: blur(5px);
         background-color: rgba(255, 255, 255, 1);
@@ -145,33 +147,54 @@ input[type="color"]::-moz-color-swatch {
 .solo.show {
 	display: flex;
 	flex-flow: row wrap;
-	align-items: space-around;
 	justify-content: space-between;
+    height: auto;
     z-index: 5;
-}
-
-.solo>h5 {
-    font-size: 1.2em;
-    width: 100%;
 }
 
 .solo>span {
 	display: flex;
-	flex-flow: row wrap;
+	flex-flow: column nowrap;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
     width: 100%;
+    height: 25%;
 }
-
+.solo>span>button {
+    margin: 1em;
+}
 .solo>nav {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
     justify-content: space-around;
+    width: 46%;
+    height: 6em;
 }
-.solo>label {
-    width: 33%;
-    height: 1em;
+
+i {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: space-around;
+    justify-content: flex-start;
+    font-style: normal;
+    width: 100%;
+    min-height: 8em;
+}
+i>a {
+    width: 100%;
+    height: 3em;
+    font-size: .8em;
+    line-height: 1.5em;
+    font-weight: bold;
+    color:hsl(0, 0%, 18%);
+    text-underline-position: under;
+    transition: .1s ease-in-out;
+}
+i>a:hover {
+    transform: scale(1.2);
+    margin-left: 1.4em;
+    text-decoration: none;
 }
 .draggable { 
     position: absolute; 

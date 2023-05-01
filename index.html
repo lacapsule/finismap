@@ -128,12 +128,11 @@
 			</span>
 			<h1>Carte interactive du Finistère</h1>
 			<span>
-			<button
-					id="random" title="Tout coloriser au hasard">Random</button>
-			<a
-				href="javascript:if (confirm('Êtes-vous sûr de vouloir réinitialiser tout votre travail ?')) { location.reload(true); }"><button
-					id="boutonReset" title="Tout remettre à zéro">Reset</button></a>
-				</span>
+				<button id="random" title="Tout coloriser au hasard">Random</button>
+				<a
+					href="javascript:if (confirm('Êtes-vous sûr de vouloir réinitialiser tout votre travail ?')) { location.reload(true); }"><button
+						id="boutonReset" title="Tout remettre à zéro">Reset</button></a>
+			</span>
 		</div>
 	</header>
 	<main>
@@ -1587,7 +1586,10 @@
 			</svg>
 			<div class="solo">
 				<h5>Nom de la commune</h5>
-				<span><button id="texte">Générer une boite de texte</button></span>
+				<i class="infos"></i>
+				<span>
+					<button id="texte">Générer une boite de texte</button>
+				</span>
 				<nav>
 					<label for="color">Fond</label>
 					<input type="color" value='#386caf' name="couleur de la commune" id="couleurCommune">
