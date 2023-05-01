@@ -13,5 +13,5 @@ Tasklist :
 - Permettre la modification de chaque communes indifféremment des autres via le menu au clic. ✅
 - Permettre une entrée de texte personnalisé et un placement de la boîte générée. ✅
 - Récupérer les contacts et liens vers chaque commune. ✅
-- Ajouter une rubrique contact et lien vers chaque municipalité.
+- Ajouter une rubrique contact et lien vers chaque municipalité. ✅
 - Permettre le regroupement de communes en vue de les modifier en groupe. ✅
