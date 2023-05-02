@@ -408,7 +408,7 @@
     "telephone": "02 98 70 90 35"
   },
   {
-    "name": "Île-Molène",
+    "name": "Île de Molène",
     "website": "http://www.molene.fr",
     "email": "mairie.ile.molene@wanadoo.fr",
     "telephone": "02 98 07 39 05"
@@ -846,13 +846,13 @@
     "telephone": "02 98 61 57 03"
   },
   {
-    "name": "Milizac-Guipronvel",
+    "name": "Milizac",
     "website": "https://www.milizac-guipronvel.bzh/",
     "email": "mairie@milizac-guipronvel.bzh",
     "telephone": "02 98 07 90 31"
   },
   {
-    "name": "Milizac-Guipronvel",
+    "name": "Guipronvel",
     "website": "None",
     "email": "mairie@milizac-guipronvel.bzh",
     "telephone": "02 98 07 90 33"
@@ -1140,7 +1140,7 @@
     "telephone": "02 98 89 62 05"
   },
   {
-    "name": "Plounéour-Brignogan-Plages",
+    "name": "Brignogan-Plages",
     "website": "https://plouneour-brignogan-plages.fr",
     "email": "mairie@plouneour-brignogan.bzh",
     "telephone": "02 98 83 40 06"
@@ -1152,7 +1152,7 @@
     "telephone": "02 98 78 01 17"
   },
   {
-    "name": "Mairie déléguée - Plounéour-Trez",
+    "name": "Plounéour-Trez",
     "website": "https://plouneour-brignogan-plages.fr",
     "email": "mairie.annexe@plouneour-brignogan.bzh",
     "telephone": "02 98 83 41 03"
@@ -1488,7 +1488,7 @@
     "telephone": "02 98 68 15 21"
   },
   {
-    "name": "Saint-Thégonnec Loc-Eguiner",
+    "name": "Saint-Thégonnec",
     "website": "https://saint-thegonnec-loc-eguiner.bzh/",
     "email": "mairie@saint-thegonnec-loc-eguiner.bzh",
     "telephone": "02 98 79 61 06"
@@ -1678,5 +1678,11 @@
     "website": "https://www.treouergat.bzh/",
     "email": "mairie.treouergat@wanadoo.fr",
     "telephone": "02 98 89 21 55"
+  },
+  {
+    "name": "Trézilidé",
+    "website": "https://mairie-trezilide.fr/",
+    "email": "mairie-trezilide@orange.fr",
+    "telephone": "02 76 34 17 65"
   }
 ]
