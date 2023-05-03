@@ -7,8 +7,7 @@
 	<meta name="description"
 		content="Cette carte interactive du Finistère vous permet d'enrichir vos présentations en créant votre propre carte. Gratuite, sous license libre et open source, elle est accessible depuis n'importe quel navigateur et fonctionne aussi hors connexion, comme un logiciel. Colorier les communes, modifier les frontières, insérer du texte et créer des marqueurs personnalisés deviennent un jeu d'enfant." />
 	<link rel="canonical" href="https://lacapsule.github.io/finismap" />
-	<meta property="og:title"
-		content="Carte interactive du Finistère, enrichie et modifiable à souhait." />
+	<meta property="og:title" content="Carte interactive du Finistère, enrichie et modifiable à souhait." />
 	<meta property="og:type" content="text/html" />
 	<meta property="og:site_name" content="Carte interactive du Finistère">
 	<meta property="og:description"
@@ -26,6 +25,7 @@
 	<link rel="shortcut icon" href="https://lacapsule.org/media/assets/apple-touch-icon.webp" type="image/x-icon">
 	<link rel="stylesheet" href="styles/style.css">
 	<link rel="stylesheet" href="styles/map.css">
+	<link rel="stylesheet" href="styles/header.css">
 	<link rel="stylesheet" href="styles/media.css">
 	<link rel="stylesheet" href="styles/menu.css">
 	<title itemprop="location">Carte interactive du Finistère</title>
@@ -137,8 +137,6 @@
 			<nav><input id="couleurPaysLorient" title="Pays de Lorient" type="color" value="#f5f5f5">
 				<p>Pays de Lorient</p>
 			</nav>
-			<!--<button
-					id="randomPays" title="Tout coloriser au hasard">Random</button>-->
 		</menu>
 		<div>
 			<span>
@@ -148,6 +146,8 @@
 			</span>
 			<h1>Carte interactive du Finistère</h1>
 			<span>
+				<button id="texte">T</button>
+				<button id="boutonMenuAperçu" title="Exporter au format PNG">🔎</button>
 				<button id="random" title="Tout coloriser au hasard">Random</button>
 				<a
 					href="javascript:if (confirm('Êtes-vous sûr de vouloir réinitialiser tout votre travail ?')) { location.reload(true); }"><button
@@ -164,11 +164,11 @@
 				<img id="right" src="img/right.png" alt="bouton droite"></img>
 				<img id="down" src="img/down.png" alt="bouton bas"></img>
 				<button id="zoom" class="zoom">+</button>
-				<button id="reset" title="Tout remettre à zéro">Recentrer</button>
+				<button id="reset" title="Tout remettre à zéro">Centrer</button>
 				<button id="dezoom" class="dezoom">-</button>
 			</section>
 		</menu>
-		<map name="Carte interactive du Finistère" itemscope itemtype="https://schema.org/Thing">
+		<map id="imprimer" name="Carte interactive du Finistère" itemscope itemtype="https://schema.org/Thing">
 			<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#"
 				xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg"
 				xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="globalMap" width="100"
@@ -1607,9 +1607,6 @@
 			<div class="solo">
 				<h5>Nom de la commune</h5>
 				<i class="infos"></i>
-				<span>
-					<button id="texte">Générer une boite de texte</button>
-				</span>
 				<nav>
 					<label for="color">Fond</label>
 					<input type="color" value='#386caf' name="couleur de la commune" id="couleurCommune">
@@ -1621,6 +1618,7 @@
 			</div>
 		</map>
 	</main>
+	<div id="vide"></div>
 	<footer></footer>
 	<script src="ressources/random.js"></script>
 	<script src="ressources/mer.js"></script>
@@ -1631,6 +1629,8 @@
 	<script src="ressources/menuEpci.js"></script>
 	<script src="ressources/dragTexte.js"></script>
 	<script src="ressources/menuPays.js"></script>
+	<script src="ressources/imprimer.js"></script>
+	<script type="text/javascript" src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
 </body>
 
 </html>

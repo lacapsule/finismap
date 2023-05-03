@@ -16,24 +16,8 @@
 
     main>menu {
         position: absolute;
-        width: 15%;
-        height: 15%;
-    }
-
-    
-    header>menu>nav>button,
-    header>menu>nav>a>button #boutonReset,
-    #random,
-    #menuGeneral,
-    #menuEpci,
-    #menuPays {
-        max-width: 5em;
-        font-size: .5em;
-    }
-
-    #reset {
-        width: 8em;
-        height: 2em;
+        width: 10em;
+        height: 10em;
     }
 
     main>menu>section {
@@ -45,7 +29,7 @@
         z-index: 0;
     }
 
-    header>span>menu {
+    header>menu {
         max-width: 100%;
     }
 
@@ -54,5 +38,15 @@
         height: auto;
         margin: .2rem .1em -2em .1em;
         padding: .1em;
+    }
+
+    button {
+        max-width: 5em;
+        font-size: 1em;
+    }
+
+    #reset {
+        width: auto;
+        height: 2em;
     }
 }

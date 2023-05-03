@@ -1,0 +1,156 @@
+header>div {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-between;
+	position: absolute;
+	width: 100%;
+	height: 41px;
+	background: hsl(0, 0%, 20%);
+	z-index: 10;
+}
+
+header>menu {
+    display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+    position: absolute;
+    top: -900px;
+	width: 100%;
+	height: auto;
+    padding: 0;
+	border-radius: 0 0 6px 6px;
+	backdrop-filter: blur(10px);
+	background: hsla(0, 0%, 96%, .5);
+	box-shadow: inset -8px -8px 16px 0px rgba(145, 192, 255, .2), inset 0px 11px 28px 0px rgba(255, 255, 255, .2);
+    transition: .6s ease-in-out;
+    z-index: -1;
+}
+
+header>menu>nav {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 4em;
+    width: 5em;
+    height: 10em;
+    margin: 1rem .1em -2em .1em;
+    padding: .2em;
+    z-index: 6;
+}
+
+header>menu>nav>p {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: .8em;
+    text-shadow: 10px 1px 18px hsla(210, 100%, 35%, .8);
+    max-width: 100%;
+    height: auto;
+    z-index: 6;
+}
+span>button,
+header>menu>nav>button,
+header>menu>nav>a>button
+#boutonReset,
+#random,
+#menuGeneral,
+#menuEpci,
+#menuPays {
+    position: relative;
+    min-width: 2em;
+    padding-bottom: 160px; 
+    border-radius: 6px;
+    background: hsl(0, 0%, 83%);
+    border: 2px solid #c9e0ff;
+    padding: .1em .6em .1em .6em;
+    box-shadow: 35px 35px 68px 0px rgba(145, 192, 255, 0.5), inset -8px -8px 16px 0px rgba(145, 192, 255, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+    font-size: 1em;
+    font-weight: bolder;
+    color: #2e2e2e;
+    z-index: 1;
+}
+#boutonReset {
+    background: rgb(206, 5, 5);
+    color: whitesmoke;
+    box-shadow: 0 0 0 transparent;
+}
+
+button:hover {
+    filter: contrast(1.2);
+}
+button:active {
+    transform: scale(.9);
+    box-shadow: inset 2px 2px 4px black,
+    inset -2px -2px 4px black;
+}
+
+input[type="color"],
+input[type="color"]::-webkit-color-swatch,
+input[type="color"]::-webkit-color-swatch-wrapper,
+input[type="color"]::-moz-color-swatch {
+    -webkit-text-fill-color: currentcolor;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    outline: 2px solid hsla(0, 0%, 100%, .1);
+    padding: 0 0 0 .2em;
+    margin: -4px 0 0 -4px;
+    border: 4px solid hsla(0, 0%, 100%, .1);
+    background: transparent;
+    overflow: visible;
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, .1);
+    border-radius: 35px;
+    box-shadow: 5px 5px 50px 0px rgba(145, 192, 255, 0.5);
+    z-index: 6;
+}
+
+.draggable { 
+    position: absolute; 
+    left: 5%; 
+    top: 5%;
+    width: auto; 
+    max-width: 90%;
+    height: auto;
+    max-height: 90%;
+    padding: 10px 20px 10px 20px; 
+    border: 1px solid black; 
+    resize: both;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    box-shadow: 35px 35px 68px 0px rgba(65, 89, 155, 0.5), inset -6px -6px 16px 0px rgba(65, 89, 155, 0.6), inset 0px 11px 28px 0px rgb(255, 255, 255);
+}
+.draggable::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 5px;
+    height: 5px;
+    cursor: nwse-resize;
+  }
+.supprTexte {
+    position: absolute; 
+    top: -10px; 
+    right: -10px; 
+    width: 1.5em;
+    height: 1.5em;
+    border: 2px solid black;
+    border-radius: 50px;
+    font-weight: bolder;
+    opacity: 10%;
+}
+.supprTexte:hover {
+    transform: scale(1.3);
+    opacity: 100%;
+    font-size: 1.2em;
+    background-color: red;
+}
