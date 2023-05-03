@@ -3,25 +3,6 @@ const aperçu = document.getElementById("boutonMenuAperçu");
 
 aperçu.addEventListener('mousedown', telecharger);
 
-function telecharger() {
-  html2canvas(document.querySelector("#imprimer"))
-  .then(function(canvas) {
-    window.open(canvas.toDataURL("image/png", 1.0), '_blank');
-  });
-}
-
-window.printDiv = function(imprimer) {
-  let innerContents = document.getElementById(imprimer).innerHTML; 
-  window.print();
-};
-
-function download() {
-  boutonMenuEnregistrer.addEventListener("click", () => {
-    var downloading = browser.downloads.download("#imprimer")
-    var dl = document.getElementById('#imprimer');
-    dl.src = "carteMorlaixCommunaute.png";
-  })
-}
 
 let ongoingTouches = [];
 
@@ -71,16 +52,30 @@ function ongoingTouchIndexById(idToFind) {
   return -1;
 }
 
-function telecharger(event) {
-  if (event.type === 'mousedown') {
-    html2canvas(document.querySelector("#imprimer"))
-    .then(function(canvas) {
-      window.open(canvas.toDataURL("image/png", 1.0), '_blank');
+window.printDiv = function(imprimer) {
+  let innerContents = document.getElementById(imprimer).innerHTML; 
+  window.print();
+};
+
+function telecharger() {
+  html2canvas(document.querySelector("#imprimer")).then(function(canvas) {
+   
+    const img = new Image();
+    img.src = canvas.toDataURL("image/png");
+    img.addEventListener("click", function() {
+      document.getElementById("lightbox").style.display = "none";
     });
-  } else if (event.type === 'touchstart') {
-    html2canvas(document.querySelector("#imprimer"))
-    .then(function(canvas) {
-      window.open(canvas.toDataURL("image/png", 1.0), '_blank');
+
+    const lightbox = document.getElementById("lightbox");
+    lightbox.innerHTML = "";
+    lightbox.appendChild(img);
+    lightbox.style.display = "block";
+
+    lightbox.addEventListener("click", function(event) {
+      if (event.target === lightbox) {
+        lightbox.style.display = "none";
+      }
     });
-  }
+  });
 }
+
