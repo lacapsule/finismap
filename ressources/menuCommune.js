@@ -9,8 +9,8 @@ villes.forEach(ville => {
   ville.addEventListener('click', (e) => {
     e.stopPropagation();
     e.preventDefault();
-    var x = e.clientX + window.pageXOffset + -500;
-    var y = e.clientY + window.pageYOffset + -400;
+    var x = e.clientX + window.pageXOffset + -200;
+    var y = e.clientY + window.pageYOffset + 50;
     ville.style.fill = couleurCommune.value;
     console.log('La souris est positionné en : x=' + x + ' y=' + y);
 
