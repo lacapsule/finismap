@@ -22,7 +22,7 @@ canvas.addEventListener('touchmove', (event) => {
     if (idx >= 0) {
       const x = touches[i].clientX;
       const y = touches[i].clientY;
-      canvas.style.transform = `translate(\${x}px, \${y}px)`;
+      canvas.style.transform = `translate(${x}px, ${y}px)`;
     }
   }
 });
@@ -38,6 +38,15 @@ canvas.addEventListener('touchend', (event) => {
   }
 });
 
+const context = canvas.getContext('2d');
+const image = new Image();
+image.src = 'path/to/image';
+image.onload = function() {
+  const pattern = context.createPattern(image, 'repeat');
+  context.fillStyle = pattern;
+  context.fillRect(0, 0, canvas.width, canvas.height);
+}
+
 function copyTouch(touch) {
   return { identifier: touch.identifier, clientX: touch.clientX, clientY: touch.clientY };
 }
@@ -51,11 +60,6 @@ function ongoingTouchIndexById(idToFind) {
   }
   return -1;
 }
-
-window.printDiv = function(imprimer) {
-  let innerContents = document.getElementById(imprimer).innerHTML; 
-  window.print();
-};
 
 function telecharger() {
   html2canvas(document.querySelector("#imprimer")).then(function(canvas) {
