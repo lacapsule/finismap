@@ -52,14 +52,7 @@ header>menu>nav>p {
     height: auto;
     z-index: 6;
 }
-span>button,
-header>menu>nav>button,
-header>menu>nav>a>button
-#boutonReset,
-#random,
-#menuGeneral,
-#menuEpci,
-#menuPays {
+button:not(#reset, #zoom, #dezoom) {
     position: relative;
     min-width: 2em;
     padding-bottom: 160px; 

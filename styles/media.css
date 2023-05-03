@@ -1,6 +1,8 @@
 @media screen and (max-width: 1050px) {
     h1 {
         display: none;
+        width: 0;
+        height: 0;
     }
 
     svg {

@@ -140,18 +140,18 @@
 		</menu>
 		<div>
 			<span>
-				<button id="menuGeneral">Général</button>
-				<button id="menuEpci">EPCI</button>
-				<button id="menuPays">Pays</button>
+				<button id="menuGeneral" title="Modifier la carte de manière générale">⚙️</button>
+				<button id="menuEpci" title="Modifier la carte par EPCI">EPCI</button>
+				<button id="menuPays" title="Modifier la carte par pays">Pays</button>
 			</span>
 			<h1>Carte interactive du Finistère</h1>
 			<span>
-				<button id="texte">T</button>
+				<button id="texte" title="Générer une boîte de texte modifiable">T</button>
 				<button id="boutonMenuAperçu" title="Exporter au format PNG">🔎</button>
-				<button id="random" title="Tout coloriser au hasard">Random</button>
+				<button id="random" title="Tout coloriser au hasard">🖌</button>
 				<a
 					href="javascript:if (confirm('Êtes-vous sûr de vouloir réinitialiser tout votre travail ?')) { location.reload(true); }"><button
-						id="boutonReset" title="Tout remettre à zéro">Reset</button></a>
+						id="boutonReset" title="Remettre tous les styles à zéro">❌</button></a>
 			</span>
 		</div>
 	</header>
@@ -159,13 +159,13 @@
 		<menu>
 			<section>
 				<div id="fond"></div>
-				<img id="up" src="img/up.png" alt="bouton haut"></img>
-				<img id="left" src="img/left.png" alt="bouton gauche"></img>
-				<img id="right" src="img/right.png" alt="bouton droite"></img>
-				<img id="down" src="img/down.png" alt="bouton bas"></img>
-				<button id="zoom" class="zoom">+</button>
-				<button id="reset" title="Tout remettre à zéro">Centrer</button>
-				<button id="dezoom" class="dezoom">-</button>
+				<img id="up" src="img/up.png" alt="bouton haut" title="Déplacer la carte vers le haut"></img>
+				<img id="left" src="img/left.png" alt="bouton gauche" title="Déplacer la carte vers la gauche"></img>
+				<img id="right" src="img/right.png" alt="bouton droite" title="Déplacer la carte vers la droite"></img>
+				<img id="down" src="img/down.png" alt="bouton bas" title="Déplacer la carte vers le bas"></img>
+				<button id="zoom" class="zoom" title="Zoomer sur la carte">+</button>
+				<button id="reset" title="Recentrer la carte au point d'origine">Centrer</button>
+				<button id="dezoom" class="dezoom" title="Dézoomer sur la carte">-</button>
 			</section>
 		</menu>
 		<map id="imprimer" name="Carte interactive du Finistère" itemscope itemtype="https://schema.org/Thing">
