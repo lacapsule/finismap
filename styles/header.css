@@ -14,11 +14,12 @@ header>menu {
     display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+    align-items: space-around;
     position: absolute;
     top: -900px;
 	width: 100%;
 	height: auto;
-    padding: 0;
+    padding: 1em 0 1em 0;
 	border-radius: 0 0 6px 6px;
 	backdrop-filter: blur(10px);
 	background: hsla(0, 0%, 96%, .5);
@@ -32,12 +33,16 @@ header>menu>nav {
     flex-flow: column wrap;
     align-items: center;
     justify-content: flex-start;
-    min-width: 4em;
-    width: 5em;
-    height: 10em;
-    margin: 1rem .1em -2em .1em;
-    padding: .2em;
-    z-index: 6;
+    position: relative;
+    top: .2em;
+    right: .2em;
+    bottom: .2em;
+    left: .2em;
+    min-width: 5em;
+    width: 10em;
+    min-height: 10em;
+    padding: 1em 0 1em 0;
+    z-index: 1;
 }
 
 header>menu>nav>p {
