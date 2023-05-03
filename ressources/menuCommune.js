@@ -9,8 +9,8 @@ villes.forEach(ville => {
   ville.addEventListener('click', (e) => {
     e.stopPropagation();
     e.preventDefault();
-    var x = e.clientX + window.pageXOffset + -200;
-    var y = e.clientY + window.pageYOffset + 75;
+    var x = e.clientX + window.pageXOffset + -500;
+    var y = e.clientY + window.pageYOffset + -400;
     ville.style.fill = couleurCommune.value;
     console.log('La souris est positionné en : x=' + x + ' y=' + y);
 
@@ -26,7 +26,7 @@ villes.forEach(ville => {
 
     s.style.left = x + 'px';
     s.style.top = y + 'px';
-    s.style.zIndex = '5';
+    s.style.zIndex = '10';
     nom.innerHTML = ville.dataset.name;
     afficherInformationsVille();
 

@@ -92,3 +92,7 @@ function resetMap(){
         svg.children[i].style.transform = `scale(${zoomLevel})`
     }
 }
+
+document.addEventListener('touchmove', (event) => {
+    event.preventDefault()
+}, { passive: false })

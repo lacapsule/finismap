@@ -14,9 +14,16 @@ window.printDiv = function(imprimer) {
   window.print();
 };
 
-function download() {
-  boutonMenuEnregistrer.addEventListener("click", () => {
-  var downloading = browser.downloads.download("#imprimer")
-  var dl = document.getElementById('#imprimer');
-  dl.src = "carteMorlaixCommunaute.png";
-})}
+function telecharger(event) {
+  if (event.type === 'mousedown') {
+    html2canvas(document.querySelector("#imprimer"))
+    .then(function(canvas) {
+      window.open(canvas.toDataURL("image/png", 1.0), '_blank');
+    });
+  } else if (event.type === 'touchstart') {
+    html2canvas(document.querySelector("#imprimer"))
+    .then(function(canvas) {
+      window.open(canvas.toDataURL("image/png", 1.0), '_blank');
+    });
+  }
+}
